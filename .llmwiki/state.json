@@ -1,0 +1,3519 @@
+{
+  "version": 1,
+  "indexHash": "",
+  "sources": {
+    "how-to/README.md": {
+      "hash": "4d09bd48eb78fbce44592289a218bc69521308d76119587e67e8996ff6481209",
+      "concepts": [
+        "obnova-postgresql-databáze-v-dockeru",
+        "lokální-testování-npm-balíčku-kopírováním-dist",
+        "analýza-strapi-json-exportu",
+        "každodenní-práce-s-gitem",
+        "základy-práce-s-dockerem",
+        "chrome-extension-s-deklarativními-síťovými-pravidly",
+        "praktický-vývoj-v-reactu",
+        "typový-systém-a-praktické-použití-typescriptu"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.270Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "4d09bd48eb78fbce44592289a218bc69521308d76119587e67e8996ff6481209",
+        "concepts": [
+          {
+            "concept": "Obnova PostgreSQL databáze v Dockeru",
+            "summary": "Obnova PostgreSQL databáze ze zálohy do Docker kontejneru a naplnění vývojovými daty pro Strapi v5.",
+            "is_new": true,
+            "tags": [
+              "postgresql",
+              "docker",
+              "strapi"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Lokální testování npm balíčku kopírováním dist",
+            "summary": "Postup lokálního testování npm balíčku přímým kopírováním sestaveného adresáře dist do node_modules.",
+            "is_new": true,
+            "tags": [
+              "npm",
+              "lokální-vývoj"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Analýza Strapi JSON exportu",
+            "summary": "Použití Python skriptu k analýze a počítání komponent v JSON exportu ze Strapi.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "python",
+              "json"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Každodenní práce s Gitem",
+            "summary": "Přehled příkazů pro běžnou práci s Gitem, vracení změn, správu větví a merge.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "správa-verzí"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Základy práce s Dockerem",
+            "summary": "Přehled práce s kontejnery, logy, exec a Docker Compose.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "kontejnery"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Chrome Extension s deklarativními síťovými pravidly",
+            "summary": "Tvorba rozšíření pro Chrome využívajícího deklarativní síťová pravidla v Manifest V3.",
+            "is_new": true,
+            "tags": [
+              "chrome-extension",
+              "manifest-v3",
+              "síťová-pravidla"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Praktický vývoj v Reactu",
+            "summary": "Průvodce architekturou, komponentami, stavem, formuláři, dialogy, API a testováním v Reactu.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "frontend",
+              "testování"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Typový systém a praktické použití TypeScriptu",
+            "summary": "Průvodce typovým systémem, generics, narrowing, utility types a API kontrakty v TypeScriptu.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "typový-systém",
+              "api-kontrakty"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/algorithms/README.md": {
+      "hash": "2ad529b228f89245fa7724c360e69a017cc4619eb5d26e8c219689d1808644f0",
+      "concepts": [
+        "časová-složitost-algoritmů-a-notace-o",
+        "merge-sort",
+        "quick-sort",
+        "linear-search-lineární-vyhledávání",
+        "binary-search-binární-vyhledávání",
+        "bfs-prohledávání-do-šířky",
+        "dfs-prohledávání-do-hloubky",
+        "dynamické-programování-a-memoizace"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.278Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "2ad529b228f89245fa7724c360e69a017cc4619eb5d26e8c219689d1808644f0",
+        "concepts": [
+          {
+            "concept": "Časová složitost algoritmů a notace O",
+            "summary": "Notace O popisuje růst výpočetní náročnosti algoritmu podle velikosti vstupu, od konstantní po exponenciální složitost.",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "časová-složitost"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Merge Sort",
+            "summary": "Řazení metodou rozděl a panuj rekurzivně dělí pole a slučuje seřazené poloviny s časovou složitostí O(n log n).",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "řazení",
+              "rekurze"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Quick Sort",
+            "summary": "Řazení rozděluje prvky podle pivotu a rekurzivně třídí vzniklé části; průměrná složitost je O(n log n), nejhorší O(n²).",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "řazení",
+              "rekurze"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Linear Search — lineární vyhledávání",
+            "summary": "Postupné porovnávání prvků vrací index prvního výskytu hledané hodnoty a funguje i na neseřazeném poli se složitostí O(n).",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "vyhledávání"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Binary Search — binární vyhledávání",
+            "summary": "Vyhledávání v seřazeném poli opakovaně půlí prohledávaný interval a dosahuje časové složitosti O(log n).",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "vyhledávání"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "BFS — prohledávání do šířky",
+            "summary": "Průchod grafem používá frontu FIFO a množinu navštívených uzlů ke zpracování po úrovních a hledání nejkratších cest v neváženém grafu.",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "grafy",
+              "fronty"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "DFS — prohledávání do hloubky",
+            "summary": "Průchod grafem pomocí rekurze nebo zásobníku prozkoumá větev do hloubky před návratem k dalším sousedům.",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "grafy",
+              "rekurze"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Dynamické programování a memoizace",
+            "summary": "Ukládání výsledků opakujících se podproblémů omezuje zbytečné výpočty; u uvedeného Fibonacciho algoritmu snižuje složitost z O(2ⁿ) na O(n).",
+            "is_new": true,
+            "tags": [
+              "algoritmy",
+              "dynamické-programování",
+              "memoizace"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/chrome-extension/README.md": {
+      "hash": "ff0156178f4c4b5600d9186c2b176304acce06b1e4e4781e908e52970ea3d79a",
+      "concepts": [
+        "chrome-extensions-with-manifest-v3",
+        "declarative-network-request-rules",
+        "extension-host-permissions",
+        "url-matching-with-regexfilter",
+        "declarative-url-redirection",
+        "declarative-request-blocking",
+        "request-header-modification",
+        "unpacked-extension-development-workflow"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.283Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "ff0156178f4c4b5600d9186c2b176304acce06b1e4e4781e908e52970ea3d79a",
+        "concepts": [
+          {
+            "concept": "Chrome Extensions with Manifest V3",
+            "summary": "Manifest V3 extensions declare their configuration, permissions, and static network rulesets in manifest.json.",
+            "is_new": true,
+            "tags": [
+              "chrome-extensions",
+              "manifest-v3"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Declarative Network Request Rules",
+            "summary": "JSON rules define conditions and actions for redirecting requests, blocking requests, or modifying headers.",
+            "is_new": true,
+            "tags": [
+              "chrome-extensions",
+              "network-rules"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Extension Host Permissions",
+            "summary": "The example combines declarativeNetRequestWithHostAccess with host_permissions covering the SharePoint domain.",
+            "is_new": true,
+            "tags": [
+              "chrome-extensions",
+              "permissions"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "URL Matching with regexFilter",
+            "summary": "Network rules use regular expressions to match URLs and resourceTypes to restrict matching to resources such as main_frame navigations.",
+            "is_new": true,
+            "tags": [
+              "network-rules",
+              "regular-expressions"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Declarative URL Redirection",
+            "summary": "A redirect action sends matching navigations to a specified destination, illustrated by redirecting a SharePoint intranet URL to Google.",
+            "is_new": true,
+            "tags": [
+              "network-rules",
+              "redirection"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Declarative Request Blocking",
+            "summary": "A block action prevents requests whose URLs match the rule's condition.",
+            "is_new": true,
+            "tags": [
+              "network-rules",
+              "request-blocking"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Request Header Modification",
+            "summary": "The modifyHeaders action can set request headers, including User-Agent and custom headers.",
+            "is_new": true,
+            "tags": [
+              "network-rules",
+              "http-headers"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Unpacked Extension Development Workflow",
+            "summary": "Developers load a local extension through Developer mode at chrome://extensions/ and reload it after editing its files.",
+            "is_new": true,
+            "tags": [
+              "chrome-extensions",
+              "development-workflow"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/cp-dist-workflow/README.md": {
+      "hash": "a64ef6498eaebf90cca1adcb73e0c6fef21732af4703c990f46cddc69b532280",
+      "concepts": [
+        "local-package-testing-by-copying-dist",
+        "nextjs-cache-invalidation-after-local-package-changes",
+        "temporary-overrides-in-nodemodules"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.285Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "a64ef6498eaebf90cca1adcb73e0c6fef21732af4703c990f46cddc69b532280",
+        "concepts": [
+          {
+            "concept": "Local package testing by copying dist",
+            "summary": "Build a package locally, remove its installed dist directory, and copy the new dist into the consuming project's node_modules to test without publishing, npm link, or npm pack; this requires a package that builds into dist.",
+            "is_new": true,
+            "tags": [
+              "local-development",
+              "npm-packages",
+              "build-artifacts"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Next.js cache invalidation after local package changes",
+            "summary": "The workflow deletes .next and restarts the development server so cached modules do not prevent copied package changes from appearing.",
+            "is_new": true,
+            "tags": [
+              "nextjs",
+              "caching",
+              "local-development"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Temporary overrides in node_modules",
+            "summary": "Direct changes to installed package files are temporary local development and testing overrides that yarn install or npm install can overwrite.",
+            "is_new": true,
+            "tags": [
+              "dependency-management",
+              "node-modules",
+              "local-testing"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/curl-api/README.md": {
+      "hash": "db9932de3badd97d72e022ada25fff98614c60bbdf55972f165566afd77db01b",
+      "concepts": [
+        "api-testing-with-curl",
+        "http-methods-and-json-requests",
+        "api-authentication-with-curl",
+        "http-response-inspection",
+        "curl-output-handling",
+        "strapi-api-requests-with-curl"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.290Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "db9932de3badd97d72e022ada25fff98614c60bbdf55972f165566afd77db01b",
+        "concepts": [
+          {
+            "concept": "API Testing with cURL",
+            "summary": "Use curl to test API endpoints directly from a terminal and quickly verify responses without a browser or graphical API client.",
+            "is_new": true,
+            "tags": [
+              "curl",
+              "api-testing",
+              "command-line"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "HTTP Methods and JSON Requests",
+            "summary": "Send GET, POST, PUT, PATCH, and DELETE requests with curl, including JSON payloads supplied inline or loaded from a file.",
+            "is_new": true,
+            "tags": [
+              "http",
+              "json",
+              "curl"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "API Authentication with cURL",
+            "summary": "Authenticate requests using Bearer tokens, Basic authentication, or API keys supplied in headers or query parameters.",
+            "is_new": true,
+            "tags": [
+              "authentication",
+              "api",
+              "curl"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "HTTP Response Inspection",
+            "summary": "Inspect response headers, verbose communication details, and HTTP status codes using curl options.",
+            "is_new": true,
+            "tags": [
+              "http",
+              "debugging",
+              "curl"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "cURL Output Handling",
+            "summary": "Save responses to files, suppress progress output, and format JSON responses through python3 -m json.tool.",
+            "is_new": true,
+            "tags": [
+              "curl",
+              "command-line",
+              "json"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Strapi API Requests with cURL",
+            "summary": "Retrieve and create Strapi page records using Bearer authentication and a JSON request body wrapped in a data object.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "api",
+              "curl"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/direct-dev/README.md": {
+      "hash": "22eafd8ad8739ab29bc5f3b99d3e39bf685cc191368b9ee1bd1d442c586ec391",
+      "concepts": [
+        "lokální-api-pro-výpočet-pojištění-insurance",
+        "konfigurace-api-url-v-projektu-dif",
+        "přepínání-prostředí-při-vývoji-insurance"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.292Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "22eafd8ad8739ab29bc5f3b99d3e39bf685cc191368b9ee1bd1d442c586ec391",
+        "concepts": [
+          {
+            "concept": "Lokální API pro výpočet pojištění Insurance",
+            "summary": "Lokální backend poskytuje výpočet pojištění na endpointu http://localhost:8976/restapi-property/services/rest/property/insurance/v6/calculation.",
+            "is_new": true,
+            "tags": [
+              "insurance",
+              "backend",
+              "lokální-vývoj"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Konfigurace API URL v projektu DIF",
+            "summary": "URL pojišťovacího API se na frontendu projektu DIF upravuje v souboru src/services/insurance/const.ts.",
+            "is_new": true,
+            "tags": [
+              "DIF",
+              "frontend",
+              "konfigurace"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Přepínání prostředí při vývoji Insurance",
+            "summary": "Frontend lze přepínat mezi lokálním backendem a jiným prostředím změnou API URL v konfiguraci projektu DIF.",
+            "is_new": true,
+            "tags": [
+              "insurance",
+              "vývojová-prostředí",
+              "konfigurace"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/direct-dev/strapi/README.md": {
+      "hash": "cc530fe79f4a2c0d2d7729ac65cc11f7f4e911caf199a0c3c23a5f7a3a53a855",
+      "concepts": [
+        "postgresql-containers-for-strapi",
+        "restoring-a-strapi-sql-database-dump",
+        "resetting-a-strapi-administrator-password-by-transferring-its-hash",
+        "escaping-password-hashes-in-shell-commands",
+        "managing-strapi-administrator-records-with-psql",
+        "docker-container-lifecycle-commands",
+        "connecting-dbeaver-to-strapi-postgresql-databases"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.294Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "cc530fe79f4a2c0d2d7729ac65cc11f7f4e911caf199a0c3c23a5f7a3a53a855",
+        "concepts": [
+          {
+            "concept": "PostgreSQL containers for Strapi",
+            "summary": "Run PostgreSQL instances for Strapi in Docker with configured credentials, database names, host ports, image versions, and persistent named volumes.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "postgresql",
+              "docker"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Restoring a Strapi SQL database dump",
+            "summary": "Restore a database using restore_db.py or by copying an SQL dump into the PostgreSQL container and executing it with psql.",
+            "is_new": true,
+            "tags": [
+              "database-restore",
+              "postgresql",
+              "strapi"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Resetting a Strapi administrator password by transferring its hash",
+            "summary": "Register an administrator against a temporary database, retrieve the generated password hash, and copy it into the original database's admin_users record.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "authentication",
+              "database-administration"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Escaping password hashes in shell commands",
+            "summary": "Escape dollar signs in password hashes passed through double-quoted shell commands so the shell preserves the literal hash.",
+            "is_new": true,
+            "tags": [
+              "shell",
+              "password-hashes",
+              "sql"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Managing Strapi administrator records with psql",
+            "summary": "Use psql inside the database container to list administrator emails, count administrator records, or delete all records from admin_users.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "postgresql",
+              "database-administration"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Docker container lifecycle commands",
+            "summary": "Inspect running or stopped database containers and control their lifecycle with docker ps, docker stop, and docker start.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "container-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Connecting DBeaver to Strapi PostgreSQL databases",
+            "summary": "Connect DBeaver to the local PostgreSQL instances through their mapped host ports and refresh connections with Invalidate/Reconnect and F5.",
+            "is_new": true,
+            "tags": [
+              "dbeaver",
+              "postgresql",
+              "database-tools"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/docker-basics/README.md": {
+      "hash": "110fcb0e778cd95c284607243338ef76d735618ba1586c8dd6063245e408cefa",
+      "concepts": [
+        "správa-životního-cyklu-docker-kontejnerů",
+        "logování-a-diagnostika-docker-kontejnerů",
+        "spouštění-příkazů-uvnitř-kontejnerů",
+        "kopírování-souborů-mezi-hostitelem-a-kontejnerem",
+        "správa-docker-images",
+        "správa-více-služeb-pomocí-docker-compose",
+        "čištění-docker-prostředí",
+        "diagnostika-portů-docker-kontejnerů"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.295Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "110fcb0e778cd95c284607243338ef76d735618ba1586c8dd6063245e408cefa",
+        "concepts": [
+          {
+            "concept": "Správa životního cyklu Docker kontejnerů",
+            "summary": "Výpis běžících i zastavených kontejnerů a jejich spouštění, zastavování, restartování a odstraňování pomocí Docker CLI.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "kontejnery"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Logování a diagnostika Docker kontejnerů",
+            "summary": "Použití docker logs pro zobrazení logů, průběžné sledování výstupu a omezení na poslední řádky při diagnostice problémů.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "logování",
+              "diagnostika"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Spouštění příkazů uvnitř kontejnerů",
+            "summary": "Použití docker exec pro otevření shellu nebo jednorázové spuštění příkazu, například databázového klienta psql.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "shell",
+              "databáze"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kopírování souborů mezi hostitelem a kontejnerem",
+            "summary": "Příkaz docker cp umožňuje přenášet soubory oběma směry mezi lokálním počítačem a kontejnerem.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "soubory"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa Docker images",
+            "summary": "Výpis lokálních images, jejich stahování z Docker Hub a odstraňování pomocí docker images, docker pull a docker rmi.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "images"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa více služeb pomocí Docker Compose",
+            "summary": "Docker Compose umožňuje společné spouštění a zastavování služeb, sledování logů a práci s jednotlivými službami; down -v odstraňuje také volumes a může smazat databázová data.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "docker-compose",
+              "volumes"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Čištění Docker prostředí",
+            "summary": "Příkazy prune slouží k odstraňování zastavených kontejnerů, nepotřebných images a dalších prostředků pro uvolnění místa.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "údržba",
+              "úložiště"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Diagnostika portů Docker kontejnerů",
+            "summary": "Výpis portů pomocí docker ps pomáhá odhalit obsazené porty a určit kontejner, který je potřeba zastavit pro uvolnění portu.",
+            "is_new": true,
+            "tags": [
+              "docker",
+              "síť",
+              "diagnostika"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/docker-basics/local-prod-web/README.md": {
+      "hash": "f2b7f9dfbb12a128b97454cf8f8ebd25f433f16ac297d582be734dda27c3881b",
+      "concepts": [
+        "local-production-execution-without-docker",
+        "nextjs-standalone-runtime-packaging",
+        "production-environment-file-selection",
+        "environment-backup-and-restoration-safeguards",
+        "dependency-installation-with-a-frozen-lockfile",
+        "production-build-validation-versus-development-mode"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.295Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "f2b7f9dfbb12a128b97454cf8f8ebd25f433f16ac297d582be734dda27c3881b",
+        "concepts": [
+          {
+            "concept": "Local production execution without Docker",
+            "summary": "run-local-prod.sh reproduces key production Dockerfile steps on the host to build and run a Next.js application without creating a Docker image.",
+            "is_new": true,
+            "tags": [
+              "local-development",
+              "production-builds",
+              "docker"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Next.js standalone runtime packaging",
+            "summary": "The production runtime combines .next/standalone/server.js with copied public and .next/static assets and runs through Node.js.",
+            "is_new": true,
+            "tags": [
+              "nextjs",
+              "standalone",
+              "deployment"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Production environment file selection",
+            "summary": "The script accepts an environment filename or path, searches the project root and envs directory, and copies the selected configuration into .env.",
+            "is_new": true,
+            "tags": [
+              "configuration",
+              "environment-variables"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Environment backup and restoration safeguards",
+            "summary": "The script preserves the original .env, rejects missing configuration or an existing backup, and restores the original file on normal exit or Ctrl+C.",
+            "is_new": true,
+            "tags": [
+              "configuration",
+              "safety",
+              "process-lifecycle"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Dependency installation with a frozen lockfile",
+            "summary": "The build workflow enables Corepack and runs pnpm install --frozen-lockfile before creating the production build with pnpm build.",
+            "is_new": true,
+            "tags": [
+              "pnpm",
+              "dependencies",
+              "build-process"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Production build validation versus development mode",
+            "summary": "The standalone workflow validates built artifacts and runtime behavior without hot reload, so source changes require rebuilding and restarting the script.",
+            "is_new": true,
+            "tags": [
+              "testing",
+              "production-builds",
+              "development-workflow"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/git-flow/README.md": {
+      "hash": "f242f7ae72612da6030ef3202deee2b81c76341f9408249a44f89651f88867b2",
+      "concepts": [
+        "příprava-a-úprava-commitů-v-gitu",
+        "správa-větví-v-gitu",
+        "vrácení-změn-pomocí-git-restore-a-git-reset",
+        "přenesení-commitu-na-správnou-větev",
+        "slučování-větví-a-řešení-konfliktů",
+        "odložení-rozpracovaných-změn-pomocí-git-stash",
+        "prohlížení-historie-a-rozdílů-v-gitu",
+        "synchronizace-se-vzdáleným-repozitářem"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.296Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "f242f7ae72612da6030ef3202deee2b81c76341f9408249a44f89651f88867b2",
+        "concepts": [
+          {
+            "concept": "Příprava a úprava commitů v Gitu",
+            "summary": "Přidávání změn do stage, vytváření commitů a oprava posledního commitu pomocí git commit --amend.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "commits",
+              "staging"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Správa větví v Gitu",
+            "summary": "Vytváření, přepínání, výpis a mazání lokálních i vzdálených větví.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "branches"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Vrácení změn pomocí git restore a git reset",
+            "summary": "Obnovení souborů, odebrání změn ze stage a odstranění posledního commitu se zachováním nebo zahozením změn.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "restore",
+              "reset"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Přenesení commitu na správnou větev",
+            "summary": "Použití git cherry-pick k aplikování omylem umístěného commitu na správnou větev a následné odebrání z původní větve.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "cherry-pick",
+              "branches"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Slučování větví a řešení konfliktů",
+            "summary": "Sloučení větve pomocí git merge a dokončení konfliktního sloučení po ruční opravě souborů.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "merge",
+              "conflicts"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Odložení rozpracovaných změn pomocí git stash",
+            "summary": "Dočasné odložení změn, zobrazení uložených položek a jejich obnovení pomocí git stash pop.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "stash"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Prohlížení historie a rozdílů v Gitu",
+            "summary": "Kontrola historie commitů, obsahu konkrétního commitu, pracovních změn, stage a commitů vůči origin/main.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "history",
+              "diff"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Synchronizace se vzdáleným repozitářem",
+            "summary": "Odesílání a stahování změn pomocí push, pull a fetch, porovnání větví a nahrazení lokálního stavu vzdálenou větví.",
+            "is_new": true,
+            "tags": [
+              "git",
+              "remote",
+              "synchronization"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          }
+        ]
+      }
+    },
+    "how-to/macos-keychain/README.md": {
+      "hash": "08d3e4d17695ddc073467a489793117932592810a9526bc85be34f72249c8c6b",
+      "concepts": [
+        "macos-keychain-jako-úložiště-tajných-údajů",
+        "správa-hesel-v-keychain-pomocí-příkazu-security",
+        "identifikace-záznamů-keychain-pomocí-account-a-service",
+        "dynamické-načítání-hesel-do-proměnných-prostředí",
+        "aktualizace-hesla-v-keychain-bez-úpravy-konfigurace-shellu"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.296Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "08d3e4d17695ddc073467a489793117932592810a9526bc85be34f72249c8c6b",
+        "concepts": [
+          {
+            "concept": "macOS Keychain jako úložiště tajných údajů",
+            "summary": "Keychain umožňuje uchovávat hesla a jiné tajné údaje mimo soubor .zshrc a načítat je ze shellu.",
+            "is_new": true,
+            "tags": [
+              "macos",
+              "keychain",
+              "bezpečnost"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa hesel v Keychain pomocí příkazu security",
+            "summary": "Příkaz security poskytuje operace add-generic-password, find-generic-password a delete-generic-password pro ukládání, čtení a mazání hesel.",
+            "is_new": true,
+            "tags": [
+              "keychain",
+              "cli",
+              "správa-hesel"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Identifikace záznamů Keychain pomocí account a service",
+            "summary": "Parametry -a pro účet a -s pro službu určují záznam, se kterým příkaz security pracuje.",
+            "is_new": true,
+            "tags": [
+              "keychain",
+              "identifikace",
+              "cli"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Dynamické načítání hesel do proměnných prostředí",
+            "summary": "Soubor .zshrc může pomocí substituce příkazu načíst heslo z Keychain a exportovat je do proměnné prostředí při svém spuštění.",
+            "is_new": true,
+            "tags": [
+              "shell",
+              "zsh",
+              "proměnné-prostředí"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Aktualizace hesla v Keychain bez úpravy konfigurace shellu",
+            "summary": "Parametr -U u add-generic-password umožňuje přepsat existující heslo, které se při dalším načtení .zshrc převezme bez změny konfigurace.",
+            "is_new": true,
+            "tags": [
+              "keychain",
+              "správa-hesel",
+              "zsh"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/parse-json/README.md": {
+      "hash": "1e34d14022aefb3ac83441165c7a0a0a2108985c602f6568315df70feb6b50af",
+      "concepts": [
+        "analýza-využití-komponent-ve-strapi",
+        "rekurzivní-vyhledávání-komponent-v-json",
+        "rozdělení-výskytů-komponent-podle-publicweb",
+        "datový-formát-analýzy-komponent",
+        "statistiky-komponent-jako-podklad-pro-refaktoring-a-migraci"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.297Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "1e34d14022aefb3ac83441165c7a0a0a2108985c602f6568315df70feb6b50af",
+        "concepts": [
+          {
+            "concept": "Analýza využití komponent ve Strapi",
+            "summary": "Script index.py počítá výskyty jednotlivých komponent napříč stránkami exportovanými ze Strapi a ukládá statistiky do JSON.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "analýza-dat",
+              "python"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Rekurzivní vyhledávání komponent v JSON",
+            "summary": "Script rekurzivně prochází strukturu každé stránky a identifikuje komponenty podle klíče __component.",
+            "is_new": true,
+            "tags": [
+              "json",
+              "rekurze",
+              "strapi"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Rozdělení výskytů komponent podle publicWeb",
+            "summary": "Pro každou komponentu se vedle celkového počtu výskytů sleduje rozdělení podle hodnot publicWeb true, false a unknown.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "statistiky",
+              "publicWeb"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Datový formát analýzy komponent",
+            "summary": "Vstup obsahuje stránky v poli data; výstup uvádí počet typů komponent, počet zpracovaných výskytů a statistiky jednotlivých komponent.",
+            "is_new": true,
+            "tags": [
+              "json",
+              "datový-formát",
+              "statistiky"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Statistiky komponent jako podklad pro refaktoring a migraci",
+            "summary": "Přehled využití komponent pomáhá plánovat refaktoring či migraci a posoudit stav dat před větší změnou.",
+            "is_new": true,
+            "tags": [
+              "refaktoring",
+              "migrace",
+              "analýza-dat"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/01-architecture.md": {
+      "hash": "bf614a633b8c3def4a115d70a8d1937ae253355a1f5204ea36735126b8325493",
+      "concepts": [
+        "feature-based-code-organization",
+        "layered-dependencies-and-feature-isolation",
+        "shared-logic-extraction",
+        "server-and-client-component-boundaries",
+        "separation-of-business-logic-from-routing",
+        "independent-feature-testability"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.297Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "bf614a633b8c3def4a115d70a8d1937ae253355a1f5204ea36735126b8325493",
+        "concepts": [
+          {
+            "concept": "Feature-based code organization",
+            "summary": "Group code by domain or feature, keeping related components, hooks, models, and services together.",
+            "is_new": true,
+            "tags": [
+              "architecture",
+              "code-organization"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Layered dependencies and feature isolation",
+            "summary": "Features may depend on shared code, while shared code should avoid feature imports and features should avoid direct dependencies on one another.",
+            "is_new": true,
+            "tags": [
+              "architecture",
+              "dependency-management",
+              "modularity"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Shared logic extraction",
+            "summary": "Move genuinely general logic used in multiple places into the shared layer.",
+            "is_new": true,
+            "tags": [
+              "code-reuse",
+              "modularity"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Server and client component boundaries",
+            "summary": "Keep client boundaries deep in the component tree: server components load data and compose pages, while client components handle interactivity and browser APIs.",
+            "is_new": true,
+            "tags": [
+              "server-components",
+              "client-components",
+              "architecture"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Separation of business logic from routing",
+            "summary": "Keep business logic outside route and layout files, with each module having one clear responsibility.",
+            "is_new": true,
+            "tags": [
+              "separation-of-concerns",
+              "routing",
+              "maintainability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Independent feature testability",
+            "summary": "Design features so they can be tested without starting the entire application.",
+            "is_new": true,
+            "tags": [
+              "testing",
+              "modularity"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/02-components.md": {
+      "hash": "b3fdafde4a2d844a165d8dfb66f28725e8aec97213225157938b2cfbd9396a22",
+      "concepts": [
+        "component-props-as-a-public-contract",
+        "controlled-components-and-state-ownership",
+        "composition-through-children",
+        "event-callbacks-and-decision-ownership",
+        "purposeful-usecallback-usage",
+        "criteria-for-reusable-components"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.297Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "b3fdafde4a2d844a165d8dfb66f28725e8aec97213225157938b2cfbd9396a22",
+        "concepts": [
+          {
+            "concept": "Component Props as a Public Contract",
+            "summary": "Define component APIs with small, explicit props instead of broad objects containing many optional values.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "api-design"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Controlled Components and State Ownership",
+            "summary": "Use controlled components when parents need to know or manage values, and avoid copying props into local state because it creates synchronization problems.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "state-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Composition Through Children",
+            "summary": "Let visual wrappers accept children so they remain independent of the specific content they contain.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "composition"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Event Callbacks and Decision Ownership",
+            "summary": "Name event handlers after actions and keep business decisions with the component that owns them, outside generic UI controls.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "events",
+              "separation-of-concerns"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Purposeful useCallback Usage",
+            "summary": "Use useCallback when stable callback identity matters for a passed dependency, rather than applying it automatically.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "referential-stability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Criteria for Reusable Components",
+            "summary": "Extract reusable components around stable purposes, clear contracts, and multiple real uses; consider composition before abstracting small JSX similarities solely for DRY.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "abstraction",
+              "reusability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/03-state-and-effects.md": {
+      "hash": "8bef22804ae2c1d7291cd854a6be12a33dfae8e508b003531a395f2a3260697e",
+      "concepts": [
+        "umístění-a-sdílení-stavu-v-komponentovém-stromu",
+        "správa-serverových-dat-pomocí-querycache-vrstvy",
+        "odvozené-hodnoty-a-jediný-zdroj-pravdy",
+        "useeffect-pro-synchronizaci-s-externími-systémy",
+        "cleanup-efektů",
+        "úplnost-závislostí-useeffect"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.297Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "8bef22804ae2c1d7291cd854a6be12a33dfae8e508b003531a395f2a3260697e",
+        "concepts": [
+          {
+            "concept": "Umístění a sdílení stavu v komponentovém stromu",
+            "summary": "State patří na nejnižší potřebnou úroveň: lokálně do useState, pro sourozence do společného rodiče a pro vzdálené části oblasti do contextu nebo feature storu.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "state-management",
+              "component-architecture"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa serverových dat pomocí query/cache vrstvy",
+            "summary": "Serverová data mají být spravována query/cache vrstvou místo ručně udržovaného globálního stavu.",
+            "is_new": true,
+            "tags": [
+              "server-state",
+              "caching",
+              "state-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Odvozené hodnoty a jediný zdroj pravdy",
+            "summary": "Hodnoty odvoditelné z props nebo existujícího stavu se mají přímo vypočítat, protože samostatný state synchronizovaný effectem duplikuje zdroj pravdy.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "derived-state",
+              "data-consistency"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "useEffect pro synchronizaci s externími systémy",
+            "summary": "useEffect slouží k synchronizaci s externími systémy, například subscriptions, časovači, browser API nebo síťovými API.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "effects",
+              "external-systems"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Cleanup efektů",
+            "summary": "Cleanup musí přesně zrušit prostředky vytvořené effectem, například odpojit spojení, odstranit listener nebo zastavit timer.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "effects",
+              "resource-lifecycle"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Úplnost závislostí useEffect",
+            "summary": "Závislosti effectu se nemají vynechávat pouze za účelem omezení četnosti jeho spouštění.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "effects",
+              "dependencies"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/04-forms.md": {
+      "hash": "7847e5f78a10858fb268b37b7c6b8e7361602ba83f75f9fb968c627f45212a61",
+      "concepts": [
+        "layered-form-architecture",
+        "schema-derived-form-types",
+        "explicit-empty-values-in-controlled-fields",
+        "form-field-wrappers",
+        "form-side-effect-hooks-and-subscription-cleanup",
+        "form-submission-pipeline"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.298Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "7847e5f78a10858fb268b37b7c6b8e7361602ba83f75f9fb968c627f45212a61",
+        "concepts": [
+          {
+            "concept": "Layered Form Architecture",
+            "summary": "Separate form composition, client interactions, field components, schemas, and side-effect hooks into distinct layers.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "architecture",
+              "separation-of-concerns"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Schema-Derived Form Types",
+            "summary": "Use a validation schema as the source of form types, deriving TypeScript types with Zod's z.infer.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "validation",
+              "typescript",
+              "zod"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Explicit Empty Values in Controlled Fields",
+            "summary": "Represent empty controlled-field values explicitly with null or an empty string instead of mixing undefined, null, and empty strings.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "controlled-inputs",
+              "data-modeling"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Form Field Wrappers",
+            "summary": "Use field wrappers to connect form state and validation errors to UI primitives while keeping feature-level business decisions outside them.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "ui-components",
+              "separation-of-concerns"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Form Side-Effect Hooks and Subscription Cleanup",
+            "summary": "Isolate reactions to field changes in hooks and unsubscribe from field-change subscriptions during effect cleanup.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "react-hooks",
+              "side-effects"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Form Submission Pipeline",
+            "summary": "Structure submission as validation, API payload mapping, request execution, error normalization, and outcome handling, keeping payload mapping outside JSX event handlers.",
+            "is_new": true,
+            "tags": [
+              "forms",
+              "api-integration",
+              "error-handling"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/05-dialogs.md": {
+      "hash": "9c82cd39a4f22c8fd55e2b7641ebfcd41c9ec0db175f0e52ad8834c32bab9ce5",
+      "concepts": [
+        "dialog-state-ownership-and-lifecycle",
+        "local-dialog-state",
+        "global-dialog-service-architecture",
+        "type-safe-dialog-stores",
+        "feature-hooks-for-dialogs",
+        "dialog-close-handler-composition",
+        "react-portals-and-context-propagation",
+        "accessible-dialog-behavior"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.298Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "9c82cd39a4f22c8fd55e2b7641ebfcd41c9ec0db175f0e52ad8834c32bab9ce5",
+        "concepts": [
+          {
+            "concept": "Dialog state ownership and lifecycle",
+            "summary": "A single source of truth controls dialog opening, rendering, closing, and unmounting.",
+            "is_new": true,
+            "tags": [
+              "dialogs",
+              "state-management",
+              "react"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Local dialog state",
+            "summary": "Component-local state suits dialogs whose triggers and content belong to a single component.",
+            "is_new": true,
+            "tags": [
+              "dialogs",
+              "component-design"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Global dialog service architecture",
+            "summary": "Triggers, feature services, a shared store, a provider, a renderer, and dialog primitives support dialogs opened from distant application locations.",
+            "is_new": true,
+            "tags": [
+              "dialogs",
+              "architecture",
+              "react"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Type-safe dialog stores",
+            "summary": "A discriminated union connects each dialog type to its required props, while unique IDs identify individual open dialogs.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "state-management",
+              "dialogs"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Feature hooks for dialogs",
+            "summary": "Feature hooks encapsulate dialog content, translations, and callbacks to avoid repeated store calls across triggers.",
+            "is_new": true,
+            "tags": [
+              "react-hooks",
+              "internationalization",
+              "encapsulation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Dialog close-handler composition",
+            "summary": "Closing should remove the correct dialog ID, preserve internal handlers, and precede the confirmation action when appropriate.",
+            "is_new": true,
+            "tags": [
+              "dialogs",
+              "event-handling",
+              "lifecycle"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "React portals and context propagation",
+            "summary": "The source explains that portals relocate DOM output while preserving React context and event propagation, contradicting its earlier suggestion that portals can change context boundaries.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "portals",
+              "context"
+            ],
+            "confidence": 1,
+            "provenanceState": "ambiguous"
+          },
+          {
+            "concept": "Accessible dialog behavior",
+            "summary": "Accessible dialogs require semantic roles, an accessible name, focus management and restoration, and predictable keyboard dismissal; portals alone do not provide these behaviors.",
+            "is_new": true,
+            "tags": [
+              "accessibility",
+              "dialogs",
+              "keyboard-navigation"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/06-api-and-data.md": {
+      "hash": "bb2da7466f656ccc5563e2ee942f82deeaa78bc8e3e0f05c773b59dcf3e11da3",
+      "concepts": [
+        "oddělení-modelů-v-datovém-toku",
+        "validace-externích-dat",
+        "správa-stavu-api-požadavků",
+        "ochrana-před-závodícími-požadavky",
+        "úplnost-klíčů-cache"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.298Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "bb2da7466f656ccc5563e2ee942f82deeaa78bc8e3e0f05c773b59dcf3e11da3",
+        "concepts": [
+          {
+            "concept": "Oddělení modelů v datovém toku",
+            "summary": "Odděl UI, formulářový či doménový model, request mapper, API klienta a modely odpovědi podle účelu jednotlivých hranic.",
+            "is_new": true,
+            "tags": [
+              "architektura",
+              "datový-tok"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Validace externích dat",
+            "summary": "Považuj externí data za unknown, dokud jejich strukturu neověří schema nebo bezpečný parser.",
+            "is_new": true,
+            "tags": [
+              "validace",
+              "api"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa stavu API požadavků",
+            "summary": "Udržuj data, loading a chybu pohromadě, rozlišuj initial loading, refetch a mutation a nevydávej stará data za čerstvá po selhání.",
+            "is_new": true,
+            "tags": [
+              "správa-stavu",
+              "api"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Ochrana před závodícími požadavky",
+            "summary": "Ruš předchozí požadavky pomocí AbortController a ověřuj aktuálnost odpovědi, aby starší výsledek nepřepsal novější stav.",
+            "is_new": true,
+            "tags": [
+              "souběh",
+              "api"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Úplnost klíčů cache",
+            "summary": "Zahrň do klíče cache všechny parametry ovlivňující výsledek, aby se nezaměňovala data různých variant dotazu.",
+            "is_new": true,
+            "tags": [
+              "cache",
+              "dotazy"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/07-snippets-and-generators.md": {
+      "hash": "3ced4506e6d6658b1916845b60be1f9735b26ae6ef0e9d200c73430a8d522867",
+      "concepts": [
+        "snippety-pro-opakovaný-kód",
+        "generátory-struktury-feature",
+        "explicitní-placeholdery-v-šablonách",
+        "kontrola-vygenerovaného-kódu",
+        "minimální-typescript-scaffold",
+        "abstrakce-podle-skutečných-use-cases"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.299Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "3ced4506e6d6658b1916845b60be1f9735b26ae6ef0e9d200c73430a8d522867",
+        "concepts": [
+          {
+            "concept": "Snippety pro opakovaný kód",
+            "summary": "Snippet slouží pro malé, stabilní a často opakované části kódu a nemá skrývat rozhodnutí vývojáře.",
+            "is_new": true,
+            "tags": [
+              "snippets",
+              "code-reuse"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Generátory struktury feature",
+            "summary": "Generator vytváří konzistentní základ opakující se struktury více souborů a jejich konfigurace, přičemž zachovává volnost dalšího vývoje.",
+            "is_new": true,
+            "tags": [
+              "generators",
+              "scaffolding"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Explicitní placeholdery v šablonách",
+            "summary": "Placeholdery v šablonách mají být explicitní a snadno vyhledatelné, například {{FEATURE_NAME}} nebo {{API_RESOURCE}}.",
+            "is_new": true,
+            "tags": [
+              "templates",
+              "placeholders"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kontrola vygenerovaného kódu",
+            "summary": "Po generování je nutné ověřit importy, exporty, překlady, registraci rout, typy, lint a nepřítomnost nevyplněných placeholderů.",
+            "is_new": true,
+            "tags": [
+              "code-generation",
+              "validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Minimální TypeScript scaffold",
+            "summary": "Výchozí scaffold komponenty má obsahovat jen nezbytný základ, například typované props, jednoduché vykreslení a pojmenovaný export.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "scaffolding"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Abstrakce podle skutečných use cases",
+            "summary": "Další abstrakce se mají přidávat až na základě dvou nebo tří skutečných případů použití.",
+            "is_new": true,
+            "tags": [
+              "abstraction",
+              "software-design"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/08-testing-and-review.md": {
+      "hash": "9a45b13d79c0f220d792fd7e634b0a01b25652bbec1ca326cc11dcfc50933ea1",
+      "concepts": [
+        "testování-kontraktu-a-pozorovatelného-chování",
+        "pojmenování-testů-podle-výsledku",
+        "testování-uživatelských-interakcí-a-callbacků",
+        "kontrola-datového-toku-a-správy-stavu",
+        "kontrola-životního-cyklu-efektů",
+        "validace-odpovědí-api-a-předávání-chyb",
+        "oddělení-business-logiky-od-generického-ui",
+        "kontrola-rozsahu-změny-a-testovacího-pokrytí"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.299Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "9a45b13d79c0f220d792fd7e634b0a01b25652bbec1ca326cc11dcfc50933ea1",
+        "concepts": [
+          {
+            "concept": "Testování kontraktu a pozorovatelného chování",
+            "summary": "Testy mají ověřovat uživatelské stavy, data callbacků, validaci a chování dialogů místo interní implementace.",
+            "is_new": true,
+            "tags": [
+              "testování",
+              "kontrakty"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Pojmenování testů podle výsledku",
+            "summary": "Název testu má popisovat pozorovatelný výsledek, nikoli privátní funkci.",
+            "is_new": true,
+            "tags": [
+              "testování",
+              "čitelnost"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Testování uživatelských interakcí a callbacků",
+            "summary": "Test může vykonat úpravu vstupu a uložení a následně ověřit, že callback obdržel upravenou hodnotu.",
+            "is_new": true,
+            "tags": [
+              "testování",
+              "uživatelské-interakce"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kontrola datového toku a správy stavu",
+            "summary": "Review má ověřovat čitelnost datového toku, absenci zbytečně uloženého odvozeného stavu a záměrnou volbu controlled či uncontrolled komponenty.",
+            "is_new": true,
+            "tags": [
+              "code-review",
+              "správa-stavu"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Kontrola životního cyklu efektů",
+            "summary": "Review má kontrolovat cleanup efektů a správnost jejich dependencies.",
+            "is_new": true,
+            "tags": [
+              "code-review",
+              "efekty"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Validace odpovědí API a předávání chyb",
+            "summary": "Odpověď API má být ověřena před použitím a chyba zobrazena nebo předána na správnou hranici.",
+            "is_new": true,
+            "tags": [
+              "validace",
+              "zpracování-chyb"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Oddělení business logiky od generického UI",
+            "summary": "Review má hlídat, aby business logika nepronikala do generických UI komponent.",
+            "is_new": true,
+            "tags": [
+              "architektura",
+              "code-review"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kontrola rozsahu změny a testovacího pokrytí",
+            "summary": "Review má ověřit pokrytí nového behaviorálního kontraktu testem a nepřítomnost nesouvisejícího refactoringu.",
+            "is_new": true,
+            "tags": [
+              "code-review",
+              "rozsah-změn",
+              "testování"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/09-hooks-and-context.md": {
+      "hash": "0c543fc9eb881c4bb458df8b48da087c37f413e519c7a9e29f09566170043e90",
+      "concepts": [
+        "react-hooks-and-render-purity",
+        "state-management-with-usestate-and-usereducer",
+        "external-synchronization-with-effects",
+        "persistent-mutable-references-with-useref",
+        "memoization-with-usememo-and-usecallback",
+        "render-prioritization-with-usetransition-and-usedeferredvalue",
+        "react-context-and-providers",
+        "custom-hooks"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.300Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "0c543fc9eb881c4bb458df8b48da087c37f413e519c7a9e29f09566170043e90",
+        "concepts": [
+          {
+            "concept": "React Hooks and Render Purity",
+            "summary": "Hooks must be called at the top level of components or custom hooks, and rendering must remain free of side effects.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "rendering"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "State Management with useState and useReducer",
+            "summary": "useState manages local UI values, while useReducer centralizes complex state transitions in a pure reducer.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "state-management",
+              "hooks"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "External Synchronization with Effects",
+            "summary": "useEffect synchronizes external systems; useLayoutEffect handles layout measurements or visual corrections before browser paint.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "effects",
+              "synchronization"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Persistent Mutable References with useRef",
+            "summary": "useRef retains mutable values across renders without triggering rendering, making it suitable for DOM references and timer identifiers.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "references"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Memoization with useMemo and useCallback",
+            "summary": "useMemo caches calculations and useCallback stabilizes function references when a concrete performance or identity requirement exists.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "memoization",
+              "performance"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Render Prioritization with useTransition and useDeferredValue",
+            "summary": "useTransition marks updates as nonurgent, while useDeferredValue lets expensive rendering follow a delayed version of a value.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "rendering",
+              "performance"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "React Context and Providers",
+            "summary": "Context passes values deeply without prop drilling, and changes to provider values rerender consuming components.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "context",
+              "data-sharing"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Custom Hooks",
+            "summary": "Custom hooks reuse stateful logic while giving each calling component its own independent hook state.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "code-reuse"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/10-component-snippets.md": {
+      "hash": "5e880f45d0b79f219e15be3f8523ff303494512e3d2f3c665e66d1c354802a7d",
+      "concepts": [
+        "komponenta-prázdného-stavu",
+        "compound-components",
+        "context-s-vlastním-hookem",
+        "controlled-input",
+        "explicitní-vykreslování-asynchronních-stavů",
+        "cleanup-v-react-hooku",
+        "kontrolní-seznam-návrhu-komponent"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.300Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "5e880f45d0b79f219e15be3f8523ff303494512e3d2f3c665e66d1c354802a7d",
+        "concepts": [
+          {
+            "concept": "Komponenta prázdného stavu",
+            "summary": "Typovaná komponenta EmptyState zobrazuje nadpis, volitelný popis a akci a propojuje sekci s nadpisem pomocí aria-labelledby.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "components",
+              "accessibility"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Compound components",
+            "summary": "Vzor sdružuje související části komponenty se společným layoutem a ponechává obsah konzumentovi; pro nesouvisející části stačí běžná kompozice.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "composition",
+              "design-patterns"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Context s vlastním hookem",
+            "summary": "Provider zpřístupňuje sdílený stav a operace přes Context a vlastní hook kontroluje, zda je použit uvnitř příslušného provideru.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "context",
+              "hooks",
+              "state-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Controlled input",
+            "summary": "Řízený vstup přijímá hodnotu přes props a předává změny callbackem, takže správu hodnoty ponechává nadřazené komponentě.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "forms",
+              "state-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Explicitní vykreslování asynchronních stavů",
+            "summary": "Postupné podmíněné návraty rozlišují načítání, chybu, prázdná data a výsledky a zpřehledňují pořadí stavů.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "async-state",
+              "conditional-rendering"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Cleanup v React hooku",
+            "summary": "Efekt registrující posluchač událostí vrací cleanup funkci, která při úklidu efektu příslušný posluchač odstraní.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "effects",
+              "resource-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kontrolní seznam návrhu komponent",
+            "summary": "Návrh komponenty ověřuje jeden účel, malý typovaný kontrakt, explicitní řízení stavu, přístupnost, oddělení business logiky a vhodnost Contextu oproti props a kompozici.",
+            "is_new": true,
+            "tags": [
+              "components",
+              "api-design",
+              "accessibility",
+              "code-quality"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/react-cheat-sheet/README.md": {
+      "hash": "708c5fd61fccc603b2f80e9ef099679e845859badbcb0f6a7c73ee3bcb157b4c",
+      "concepts": [
+        "hranice-a-datový-tok-v-react-aplikaci",
+        "návrh-znovupoužitelných-komponent",
+        "lokální-a-sdílený-stav",
+        "odvozené-hodnoty-během-renderu",
+        "synchronizace-s-externími-systémy-pomocí-useeffect",
+        "snippets-a-generátory",
+        "projektové-konvence-zápisu-react-kódu"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.300Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "708c5fd61fccc603b2f80e9ef099679e845859badbcb0f6a7c73ee3bcb157b4c",
+        "concepts": [
+          {
+            "concept": "Hranice a datový tok v React aplikaci",
+            "summary": "Návrh aplikace má začínat vymezením hranic a datového toku, teprve poté mají vznikat abstrakce.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "architektura"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Návrh znovupoužitelných komponent",
+            "summary": "Znovupoužitelná komponenta má být jednoduchá na použití a nemá znát business pravidla svého konzumenta.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "komponenty"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Lokální a sdílený stav",
+            "summary": "Stav jedné obrazovky patří do lokálního state; při sdílení mezi vzdálenými částmi aplikace je vhodné zvážit context nebo store.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "state",
+              "context"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Odvozené hodnoty během renderu",
+            "summary": "Hodnoty odvoditelné z props nebo state se mají vypočítat během renderu.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "state",
+              "render"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Synchronizace s externími systémy pomocí useEffect",
+            "summary": "Hook useEffect slouží k synchronizaci Reactu s externím systémem.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "hooks",
+              "effects"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Snippets a generátory",
+            "summary": "Opakující se struktury souborů a pravidla lze zachytit pomocí snippets nebo generátorů.",
+            "is_new": true,
+            "tags": [
+              "scaffolding",
+              "automatizace"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Projektové konvence zápisu React kódu",
+            "summary": "Ukázky používají const arrow functions pro komponenty a custom hooks a pojmenované exporty na konci souboru; jde o přizpůsobitelné projektové konvence.",
+            "is_new": true,
+            "tags": [
+              "react",
+              "konvence",
+              "styl-kodu"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/restore-db/README.md": {
+      "hash": "1e6c09f391fd536d8feadd6052d8e8a9caffa9da0f391130e59bfd9df8a6aaaf",
+      "concepts": [
+        "restoring-a-dockerized-postgresql-database",
+        "strapi-v5-development-data-seeding",
+        "seeding-through-the-strapi-documents-api",
+        "idempotent-and-non-destructive-seeding",
+        "strapi-v5-draft-and-publish-seeding",
+        "clean-database-initialization-for-strapi-v5"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.300Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "1e6c09f391fd536d8feadd6052d8e8a9caffa9da0f391130e59bfd9df8a6aaaf",
+        "concepts": [
+          {
+            "concept": "Restoring a Dockerized PostgreSQL Database",
+            "summary": "restore_strapi.py copies a SQL backup into Docker, terminates connections, drops and recreates the database, imports the backup, and lists tables to check the result.",
+            "is_new": true,
+            "tags": [
+              "postgresql",
+              "docker",
+              "backup-restore"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Strapi v5 Development Data Seeding",
+            "summary": "seedDevData.js populates a clean local Strapi v5 database with sample categories, tags, posts, pages, and a locally uploaded placeholder image.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "development",
+              "data-seeding"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Seeding Through the Strapi Documents API",
+            "summary": "Creating seed records through the Documents API runs validations and lifecycle hooks, supporting correct generatedUrl values and duplicate checks.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "documents-api",
+              "data-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Idempotent and Non-Destructive Seeding",
+            "summary": "The seed script deletes nothing and skips existing records matched by slug or title when run repeatedly.",
+            "is_new": true,
+            "tags": [
+              "data-seeding",
+              "idempotency"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Strapi v5 Draft and Publish Seeding",
+            "summary": "Sample blog posts and pages are created as drafts and then published to produce Strapi v5 draft and published counterparts.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "content-publishing",
+              "data-seeding"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Clean Database Initialization for Strapi v5",
+            "summary": "When an old dump contains invalid data, recreate the database, run Strapi to create its schema and apply migrations, then seed fresh valid development data.",
+            "is_new": true,
+            "tags": [
+              "strapi",
+              "database-initialization",
+              "development"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/ssh-keys/README.md": {
+      "hash": "de70a6a76f9425eb7420e1de3617ea80772c7b83dfa7b5e92fbca495e85d4195",
+      "concepts": [
+        "autentizace-pomocí-ssh-klíčů",
+        "generování-ssh-klíčů-ed25519",
+        "nastavení-ssh-přístupu-na-github",
+        "více-github-účtů-pomocí-ssh-aliasů",
+        "instalace-veřejného-ssh-klíče-na-server",
+        "správa-klíčů-v-ssh-agentovi",
+        "diagnostika-problémů-s-ssh-připojením"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.301Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "de70a6a76f9425eb7420e1de3617ea80772c7b83dfa7b5e92fbca495e85d4195",
+        "concepts": [
+          {
+            "concept": "Autentizace pomocí SSH klíčů",
+            "summary": "SSH používá pár soukromého a veřejného klíče; soukromý klíč zůstává tajný a veřejný se přidává k cílové službě.",
+            "is_new": true,
+            "tags": [
+              "ssh",
+              "authentication",
+              "security"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Generování SSH klíčů Ed25519",
+            "summary": "Příkaz ssh-keygen vytváří pár klíčů Ed25519 s volitelnou passphrase, komentářem a vlastní cestou uložení.",
+            "is_new": true,
+            "tags": [
+              "ssh",
+              "key-management",
+              "ed25519"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Nastavení SSH přístupu na GitHub",
+            "summary": "Veřejný klíč se přidává do nastavení GitHubu a autentizace se ověřuje příkazem ssh -T git@github.com.",
+            "is_new": true,
+            "tags": [
+              "github",
+              "ssh",
+              "authentication"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Více GitHub účtů pomocí SSH aliasů",
+            "summary": "Samostatné klíče a aliasy Host v ~/.ssh/config umožňují vybírat účet pomocí adresy repozitáře.",
+            "is_new": true,
+            "tags": [
+              "github",
+              "ssh",
+              "configuration"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Instalace veřejného SSH klíče na server",
+            "summary": "Veřejný klíč lze na server přidat pomocí ssh-copy-id nebo ručním připojením do ~/.ssh/authorized_keys.",
+            "is_new": true,
+            "tags": [
+              "ssh",
+              "servers",
+              "authentication"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Správa klíčů v SSH agentovi",
+            "summary": "Příkaz ssh-add přidává soukromý klíč do SSH agenta a přepínač -l vypisuje načtené klíče.",
+            "is_new": true,
+            "tags": [
+              "ssh",
+              "ssh-agent",
+              "key-management"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Diagnostika problémů s SSH připojením",
+            "summary": "Řešení problémů zahrnuje kontrolu SSH adresy Git remote, ověření autentizace na GitHubu a podrobný výpis pomocí ssh -v.",
+            "is_new": true,
+            "tags": [
+              "ssh",
+              "git",
+              "troubleshooting"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/symlink-shortcut/README.md": {
+      "hash": "a4bb87e8b69d89207bc897020ff846605ae4bddfb56934170af4d41bd76b20c1",
+      "concepts": [
+        "symbolický-odkaz-symlink",
+        "vytváření-symlinků-pomocí-ln-s",
+        "zpřístupnění-repozitářového-skriptu-přes-symlink",
+        "trvalost-a-nefunkčnost-symlinků",
+        "kontrola-cíle-symlinku",
+        "odstranění-symlinku-bez-smazání-originálu"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.301Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "a4bb87e8b69d89207bc897020ff846605ae4bddfb56934170af4d41bd76b20c1",
+        "concepts": [
+          {
+            "concept": "Symbolický odkaz (symlink)",
+            "summary": "Odkaz na soubor na jiném místě souborového systému, který zpřístupňuje originál bez kopírování a odráží jeho změny.",
+            "is_new": true,
+            "tags": [
+              "souborový-systém",
+              "symbolické-odkazy"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Vytváření symlinků pomocí ln -s",
+            "summary": "Příkaz `ln -s ORIGINÁL ZKRATKA` vytvoří symbolický odkaz na zadaný cíl.",
+            "is_new": true,
+            "tags": [
+              "terminál",
+              "symbolické-odkazy"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Zpřístupnění repozitářového skriptu přes symlink",
+            "summary": "Symlink v `~/.claude/setup.sh` umožňuje spouštět skript uložený v repozitáři příkazem `bash ~/.claude/setup.sh`.",
+            "is_new": true,
+            "tags": [
+              "skripty",
+              "organizace-souborů"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Trvalost a nefunkčnost symlinků",
+            "summary": "Vytvořený symlink přetrvává pro opakované použití; přesunutí nebo přejmenování cílového skriptu může způsobit jeho nefunkčnost.",
+            "is_new": true,
+            "tags": [
+              "symbolické-odkazy",
+              "životní-cyklus"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kontrola cíle symlinku",
+            "summary": "Výpis `ls -la` zobrazuje symbolické odkazy ve tvaru `název -> cíl`, což umožňuje ověřit jejich přítomnost a cílovou cestu.",
+            "is_new": true,
+            "tags": [
+              "terminál",
+              "diagnostika"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Odstranění symlinku bez smazání originálu",
+            "summary": "Příkaz `rm` použitý na cestu samotného symlinku odstraní odkaz a ponechá původní soubor nedotčený.",
+            "is_new": true,
+            "tags": [
+              "symbolické-odkazy",
+              "správa-souborů"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/01-type-system-basics.md": {
+      "hash": "a896d1fb627c5270fd571ef491a16469bb96931a49c9aad947756fc44b4d6695",
+      "concepts": [
+        "typescript-primitive-types",
+        "type-inference-and-explicit-annotations",
+        "type-aliases-and-interfaces",
+        "union-and-literal-types",
+        "optional-versus-nullable-properties",
+        "unknown-versus-any",
+        "never-and-exhaustiveness-checking",
+        "const-assertions"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.301Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "a896d1fb627c5270fd571ef491a16469bb96931a49c9aad947756fc44b4d6695",
+        "concepts": [
+          {
+            "concept": "TypeScript Primitive Types",
+            "summary": "TypeScript provides primitive types such as string, number, boolean, null, and undefined.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-system"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Type Inference and Explicit Annotations",
+            "summary": "Prefer type inference by default and add explicit annotations to document contracts, protect public APIs, or support narrowing.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-inference"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Type Aliases and Interfaces",
+            "summary": "Use type aliases for type compositions and interfaces for extensible or implementable object contracts, maintaining codebase consistency.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-aliases",
+              "interfaces"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Union and Literal Types",
+            "summary": "Unions of literal types constrain values to specific permitted alternatives more precisely than broad primitive types.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "union-types",
+              "literal-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Optional Versus Nullable Properties",
+            "summary": "Optional properties may be absent, while required nullable properties must exist but can contain null.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "optional-properties",
+              "nullability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Unknown Versus Any",
+            "summary": "Unknown requires narrowing before use, while any disables type checking and should be isolated to unavoidable boundaries.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-safety",
+              "type-narrowing"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Never and Exhaustiveness Checking",
+            "summary": "Never represents impossible values or functions that cannot return successfully and supports exhaustive switch checks.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "never",
+              "exhaustiveness"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Const Assertions",
+            "summary": "The as const assertion preserves literal types and readonly properties, enabling unions derived from constant tuples.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "const-assertions",
+              "literal-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/02-functions-and-generics.md": {
+      "hash": "b79a0bb08fa668a8cfeafa72b94e90b50f812697e197f3a7cbf76425ac7f74b6",
+      "concepts": [
+        "typování-funkcí-v-typescriptu",
+        "zachování-vztahu-mezi-typy-pomocí-generik",
+        "syntaxe-generik-v-tsx",
+        "omezení-generických-typů-pomocí-extends",
+        "typově-bezpečný-přístup-k-vlastnostem-pomocí-keyof-a-tk",
+        "výchozí-hodnoty-generických-parametrů",
+        "generické-komponenty",
+        "kdy-generika-nepoužívat"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.302Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "b79a0bb08fa668a8cfeafa72b94e90b50f812697e197f3a7cbf76425ac7f74b6",
+        "concepts": [
+          {
+            "concept": "Typování funkcí v TypeScriptu",
+            "summary": "Veřejné helpery mají mít explicitně typované vstupy i návratovou hodnotu; lokální funkce mohou využít inferenci návratového typu.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "functions"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Zachování vztahu mezi typy pomocí generik",
+            "summary": "Generický parametr zachovává vztah mezi vstupním a výstupním typem, například při získání prvního prvku pole.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Syntaxe generik v TSX",
+            "summary": "Zápis <T,> pomáhá parseru v souborech .tsx rozlišit generický parametr od JSX tagu.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "tsx"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Omezení generických typů pomocí extends",
+            "summary": "Constraint pomocí extends vyžaduje určité vlastnosti generického typu, přičemž dovoluje další vlastnosti navíc.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "type-constraints"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Typově bezpečný přístup k vlastnostem pomocí keyof a T[K]",
+            "summary": "K extends keyof T omezuje klíč na klíče objektu a indexed access type T[K] určuje odpovídající typ hodnoty.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "keyof",
+              "indexed-access-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Výchozí hodnoty generických parametrů",
+            "summary": "Generický parametr může mít výchozí typ, například unknown, který usnadňuje použití, ale nemá zakrývat chybějící typovou informaci.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "type-defaults"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Generické komponenty",
+            "summary": "Generická komponenta Select propojuje typ položek options s typy parametrů callbacků getValue, getLabel a onChange.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "components",
+              "tsx"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Kdy generika nepoužívat",
+            "summary": "Generika mají zachovávat důležité vztahy mezi typy; konkrétní typ, explicitní union nebo unknown s narrowing mohou být srozumitelnější.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "type-design"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/03-narrowing-and-type-guards.md": {
+      "hash": "d0aff9b48faa841fd3b0aa3699457761d44f9a893ac4ce598b990ca34a8fa173",
+      "concepts": [
+        "typescript-type-narrowing",
+        "typeof-type-guards",
+        "discriminated-unions",
+        "user-defined-type-guards",
+        "property-validation-with-in-and-null-checks",
+        "exhaustiveness-checking-with-never"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.302Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "d0aff9b48faa841fd3b0aa3699457761d44f9a893ac4ce598b990ca34a8fa173",
+        "concepts": [
+          {
+            "concept": "TypeScript Type Narrowing",
+            "summary": "Narrowing refines a broad type into a more specific variant based on conditions, enabling access to variant-specific properties.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-system"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "typeof Type Guards",
+            "summary": "Checks using typeof narrow union types to primitive types such as string or number within control-flow branches.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-guards"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Discriminated Unions",
+            "summary": "A shared property with distinct literal values lets TypeScript identify each union variant and its available properties.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "union-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "User-Defined Type Guards",
+            "summary": "Functions returning a type predicate such as value is SomeType enable narrowing through custom runtime checks, whose correctness the implementation must ensure.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-guards",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Property Validation with in and Null Checks",
+            "summary": "An unknown value can be validated by checking that it is a non-null object, that a property exists using in, and that the property has the expected type.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Exhaustiveness Checking with never",
+            "summary": "Passing an unhandled union variant to an assertNever function exposes incomplete switch statements when new variants are added.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "union-types",
+              "exhaustiveness"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/04-utility-types.md": {
+      "hash": "f9b7755f897639b2bfc6735a80afe150ecbd0266b8e8e3d081f45fa2ef2dae55",
+      "concepts": [
+        "utility-types-v-typescriptu",
+        "partial-required-a-readonly",
+        "pick-a-omit",
+        "record-v-kombinaci-se-satisfies",
+        "returntype-a-parameters",
+        "nonnullable-extract-a-exclude",
+        "awaited",
+        "návrh-vlastních-utility-typů"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.302Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "f9b7755f897639b2bfc6735a80afe150ecbd0266b8e8e3d081f45fa2ef2dae55",
+        "concepts": [
+          {
+            "concept": "Utility types v TypeScriptu",
+            "summary": "Odvozují nové typy z existujících a snižují duplicitu, aniž by měly skrývat důležitý business kontrakt.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "typový-systém"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Partial, Required a Readonly",
+            "summary": "Upravují volitelnost nebo zapisovatelnost vlastností; Partial se hodí pro patch requesty, ale nenahrazuje přesný typ formuláře.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Pick a Omit",
+            "summary": "Vytvářejí typy výběrem nebo vynecháním vlastností, pokud výsledný kontrakt skutečně představuje podmnožinu původního.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Record v kombinaci se satisfies",
+            "summary": "Kontroluje úplnost klíčů objektového literálu a odhaluje překlepy v klíčích podle zadaného typu.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types",
+              "typová-kontrola"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "ReturnType a Parameters",
+            "summary": "Odvozují návratový typ a typ parametrů z funkce, jejíž signatura slouží jako zdroj pravdy.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types",
+              "funkce"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "NonNullable, Extract a Exclude",
+            "summary": "Filtrují členy union typů odstraněním null a undefined, výběrem odpovídajících členů nebo jejich vyloučením.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types",
+              "union-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Awaited",
+            "summary": "Odvozuje typ výsledku asynchronní operace a lze jej kombinovat s ReturnType pro získání výsledného typu async funkce.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types",
+              "asynchronní-programování"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Návrh vlastních utility typů",
+            "summary": "Vlastní utility typ má smysl pro opakující se pattern, jehož pojmenování zlepší čitelnost; přednost mají standardní utility, indexed access nebo satisfies.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "návrh-typů",
+              "čitelnost-kódu"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/05-advanced-types.md": {
+      "hash": "9bf95e207708e9fc5a53644f93095bfe73a1383a9587dad09347202762044333",
+      "concepts": [
+        "typescript-indexed-access-types",
+        "typescript-mapped-types",
+        "typescript-conditional-types",
+        "typescript-infer-keyword",
+        "distributive-conditional-types",
+        "typescript-template-literal-types",
+        "typescript-satisfies-operator",
+        "typescript-function-overloads"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.303Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "9bf95e207708e9fc5a53644f93095bfe73a1383a9587dad09347202762044333",
+        "concepts": [
+          {
+            "concept": "TypeScript Indexed Access Types",
+            "summary": "Extract property types with T[K] or an array element type with (typeof OPTIONS)[number].",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-system"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Mapped Types",
+            "summary": "Create new types by iterating over the keys of an existing type and transforming their property types.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-transformations"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Conditional Types",
+            "summary": "Select a resulting type using the condition T extends U ? A : B.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "conditional-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript infer Keyword",
+            "summary": "Capture part of a matched type inside a conditional type, such as the value wrapped by a Promise.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-inference",
+              "conditional-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Distributive Conditional Types",
+            "summary": "Conditional types with a naked type parameter can distribute over union members, offering flexibility at a potential readability cost.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "conditional-types",
+              "union-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Template Literal Types",
+            "summary": "Construct string types from literal combinations to model event names, route patterns, and configuration keys.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "literal-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript satisfies Operator",
+            "summary": "Validate a value against a target type while preserving its specific inferred type, including concrete keys and literals in the shown as const pattern.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-inference",
+              "type-checking"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Function Overloads",
+            "summary": "Describe multiple public call signatures for one implementation, using overloads when they improve the API over a simpler union.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "functions",
+              "api-design"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/06-api-and-runtime-validation.md": {
+      "hash": "c62b5781835c81de87a11a3d97558f2f1f449baeb2e51c1ff2d90809a46e7562",
+      "concepts": [
+        "compile-time-typy-versus-runtime-validace",
+        "validace-na-api-hranici",
+        "zod-schema-jako-zdroj-validace-a-typu",
+        "zod-parse-versus-safeparse",
+        "request-mapper-a-oddělení-datových-modelů",
+        "bezpečné-zpracování-chyb-typu-unknown"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.303Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "c62b5781835c81de87a11a3d97558f2f1f449baeb2e51c1ff2d90809a46e7562",
+        "concepts": [
+          {
+            "concept": "Compile-time typy versus runtime validace",
+            "summary": "TypeScript typy nezaručují strukturu externích dat; data z HTTP, JSON či dalších vstupů je nutné ověřit za běhu.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Validace na API hranici",
+            "summary": "Datový tok vede od neznámého vstupu přes runtime parser a validovaný API model k mapperu a UI či doménovému modelu.",
+            "is_new": true,
+            "tags": [
+              "api",
+              "architecture",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Zod schema jako zdroj validace a typu",
+            "summary": "Zod schema definuje runtime validaci a pomocí z.infer poskytuje TypeScript typ, čímž předchází rozcházení definic.",
+            "is_new": true,
+            "tags": [
+              "zod",
+              "typescript",
+              "schema-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Zod parse versus safeParse",
+            "summary": "parse při nevalidních datech vyhodí výjimku, zatímco safeParse vrací výsledek umožňující explicitní zpracování chyby či fallbacku.",
+            "is_new": true,
+            "tags": [
+              "zod",
+              "error-handling",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Request mapper a oddělení datových modelů",
+            "summary": "Samostatný mapper převádí formulářový model na API request a soustřeďuje normalizaci, transformaci a explicitní API kontrakt mimo JSX event handlery.",
+            "is_new": true,
+            "tags": [
+              "api",
+              "data-mapping",
+              "separation-of-concerns"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Bezpečné zpracování chyb typu unknown",
+            "summary": "Zachycené chyby je vhodné chápat jako unknown a před přístupem k message je zúžit, protože vyhozená hodnota nemusí být instancí Error.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "error-handling",
+              "type-narrowing"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/07-tsconfig-and-project-setup.md": {
+      "hash": "c2be4f1f3c3b62b6b6fa0261ae8fde98c8423b8407f660be610fa9b3c80534c2",
+      "concepts": [
+        "typescript-strict-mode-and-null-safety",
+        "runtime-aligned-typescript-configuration",
+        "checked-indexed-access",
+        "typescript-file-inclusion-and-exclusion",
+        "typescript-project-references",
+        "path-alias-coordination-across-tools",
+        "type-checking-in-continuous-integration"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.303Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "c2be4f1f3c3b62b6b6fa0261ae8fde98c8423b8407f660be610fa9b3c80534c2",
+        "concepts": [
+          {
+            "concept": "TypeScript Strict Mode and Null Safety",
+            "summary": "Enable strict mode to catch problems early; strictNullChecks prevents null and undefined from being automatically compatible with every type.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-safety",
+              "configuration"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Runtime-Aligned TypeScript Configuration",
+            "summary": "Choose target, module, and moduleResolution to match the runtime and bundler instead of copying compiler settings without understanding their effects.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "configuration",
+              "runtime"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Checked Indexed Access",
+            "summary": "Enable noUncheckedIndexedAccess so potentially missing array elements include undefined in their type and require appropriate handling.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-safety",
+              "arrays"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript File Inclusion and Exclusion",
+            "summary": "include selects project source files, while exclude does not prevent imported files from entering the TypeScript program.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "configuration",
+              "project-structure"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Project References",
+            "summary": "Use project references for multiple independently built TypeScript projects; a single well-configured tsconfig is simpler for an ordinary application.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "builds",
+              "project-structure"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Path Alias Coordination Across Tools",
+            "summary": "Coordinate TypeScript path aliases with the bundler, test runner, and editor tooling because tsconfig aliases alone do not change runtime resolution.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "module-resolution",
+              "tooling"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Type Checking in Continuous Integration",
+            "summary": "Run tsc --noEmit in CI to verify types, alongside linting and formatting, which address different concerns and do not replace compiler checks.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "continuous-integration",
+              "verification"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/08-patterns-and-pitfalls.md": {
+      "hash": "8aaf6ebead0a8fe2d454e4b6884113d16bc30ff37d879a5e843457d0234b2791",
+      "concepts": [
+        "discriminated-unions-for-valid-state-modeling",
+        "runtime-validation-versus-type-assertions",
+        "the-satisfies-operator",
+        "appropriate-use-of-const-assertions",
+        "any-unknown-and-never",
+        "single-source-of-truth-for-type-contracts",
+        "avoiding-type-level-overengineering",
+        "role-based-naming-for-types-and-conversion-functions"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.303Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "8aaf6ebead0a8fe2d454e4b6884113d16bc30ff37d879a5e843457d0234b2791",
+        "concepts": [
+          {
+            "concept": "Discriminated unions for valid state modeling",
+            "summary": "Model mutually exclusive states with discriminated unions to prevent invalid combinations of flags and associated data.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "state-modeling",
+              "type-safety"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Runtime validation versus type assertions",
+            "summary": "Type assertions do not validate or transform data; external inputs require a runtime parser, schema, or genuine type guard.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "runtime-validation",
+              "type-assertions"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "The satisfies operator",
+            "summary": "Use satisfies to check type compatibility while preserving inference instead of relying on assertions that can conceal errors.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-inference",
+              "type-safety"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Appropriate use of const assertions",
+            "summary": "Use as const for literal narrowing and readonly typing in constant configurations, maps, and value lists rather than as an automatic mutability fix.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "literal-types",
+              "readonly"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "any, unknown, and never",
+            "summary": "Distinguish unchecked any, check-before-use unknown, and uninhabited never; prefer unknown at application boundaries and contain justified uses of any.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-safety",
+              "application-boundaries"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Single source of truth for type contracts",
+            "summary": "Prevent schemas, response interfaces, and UI types from drifting by establishing one authoritative contract and deriving or mapping other representations.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "data-contracts",
+              "maintainability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Avoiding type-level overengineering",
+            "summary": "Use conditional types, mapped types, and generics when they provide meaningful safety while remaining readable, and simplify unnecessary complexity.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "maintainability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Role-based naming for types and conversion functions",
+            "summary": "Use consistent names that distinguish models, forms, responses, status unions, runtime schemas, parsers, mappers, and type guards.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "naming-conventions",
+              "code-readability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/09-snippets.md": {
+      "hash": "7b8b0c26aca1a41ef047392e39327ec147495d4be9bf20b1608c8b1f19ebba84",
+      "concepts": [
+        "const-assertions-with-satisfies",
+        "typed-dictionaries-with-record",
+        "generic-asynchronous-result-unions",
+        "object-type-guards",
+        "exhaustive-switches-with-never",
+        "branded-types",
+        "key-constrained-generic-property-updates",
+        "reusable-snippet-quality-checklist"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.304Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "7b8b0c26aca1a41ef047392e39327ec147495d4be9bf20b1608c8b1f19ebba84",
+        "concepts": [
+          {
+            "concept": "Const assertions with satisfies",
+            "summary": "Combine as const and satisfies to preserve literal types while checking configuration structure, then derive valid keys with keyof typeof.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-inference",
+              "configuration"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Typed dictionaries with Record",
+            "summary": "Use satisfies Record<Status, string> to check that a label dictionary covers every member of a status union.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "mapped-types",
+              "dictionaries"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Generic asynchronous result unions",
+            "summary": "Represent idle, loading, success, and error states with a discriminated union whose success variant carries generic data.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "async-state"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Object type guards",
+            "summary": "Use a type predicate and a non-null object check to narrow unknown values to Record<string, unknown>.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-narrowing",
+              "runtime-checks"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Exhaustive switches with never",
+            "summary": "Pass an unhandled discriminated-union value to an assertNever helper to enforce exhaustive switch handling.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "discriminated-unions",
+              "exhaustiveness"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Branded types",
+            "summary": "Distinguish values sharing the same runtime type using compile-time brands, while recognizing that branding provides no runtime validation.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "branded-types",
+              "type-safety"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Key-constrained generic property updates",
+            "summary": "Combine K extends keyof T with T[K] to constrain a property-update helper to valid keys and their corresponding value types.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "indexed-access-types"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Reusable snippet quality checklist",
+            "summary": "Check snippets for copy-paste usability, explicit adaptation points, justified any usage, named exports, and clearly identified runtime boundaries.",
+            "is_new": true,
+            "tags": [
+              "code-quality",
+              "documentation",
+              "snippets"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    },
+    "how-to/typescript-cheat-sheet/README.md": {
+      "hash": "2401903fe5ddfabc23dc3ec80141702fb82c621a78add7743a3bb40ce850b536",
+      "concepts": [
+        "typescript-types-and-runtime-validation",
+        "unknown-types-narrowing-and-type-guards",
+        "discriminated-unions",
+        "generic-functions-and-components",
+        "deriving-types-with-utility-types-and-indexed-access",
+        "conditional-types",
+        "configuration-objects-with-as-const-satisfies",
+        "typescript-project-configuration"
+      ],
+      "compiledAt": "2026-11-11T11:06:22.304Z",
+      "extraction": {
+        "fingerprint": "98d8f2494e20ce80f6579ff5cd8b13c185477554e4fcc46a19fb2cf77a296499",
+        "sourceHash": "2401903fe5ddfabc23dc3ec80141702fb82c621a78add7743a3bb40ce850b536",
+        "concepts": [
+          {
+            "concept": "TypeScript Types and Runtime Validation",
+            "summary": "TypeScript checks code during development or builds; external data requires a runtime schema or parser, and types should be derived from that source of truth.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "runtime-validation"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Unknown Types, Narrowing, and Type Guards",
+            "summary": "Treat external values as unknown instead of any, then narrow or validate them before use.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "type-safety",
+              "narrowing"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Discriminated Unions",
+            "summary": "Represent values with multiple possible variants using a union and a discriminant.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "unions",
+              "data-modeling"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Generic Functions and Components",
+            "summary": "Use generics when an algorithm, helper, or component needs to work with multiple types.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "generics",
+              "reusability"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Deriving Types with Utility Types and Indexed Access",
+            "summary": "Derive new types from existing types using utility types or indexed access instead of duplicating their structure.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "utility-types",
+              "type-manipulation"
+            ],
+            "confidence": 1,
+            "provenanceState": "merged"
+          },
+          {
+            "concept": "Conditional Types",
+            "summary": "Use conditional types when a resulting type depends on a condition, while keeping the type definition readable.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "conditional-types",
+              "readability"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "Configuration Objects with as const satisfies",
+            "summary": "The guide recommends as const satisfies Shape for configuration objects.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "configuration",
+              "coding-conventions"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          },
+          {
+            "concept": "TypeScript Project Configuration",
+            "summary": "TypeScript project setup includes strict mode, module resolution, and project references configured through tsconfig.",
+            "is_new": true,
+            "tags": [
+              "typescript",
+              "tsconfig",
+              "project-setup"
+            ],
+            "confidence": 1,
+            "provenanceState": "extracted"
+          }
+        ]
+      }
+    }
+  },
+  "frozenSlugs": [],
+  "promptModifiers": ""
+}

@@ -1,0 +1,247 @@
+# Knowledge Wiki
+
+## Concepts
+
+- **[[abstrakce-podle-skutečných-use-cases|Abstrakce podle skutečných use cases]]** — Další abstrakce se mají přidávat až na základě dvou nebo tří skutečných případů použití.
+- **[[accessible-dialog-behavior|Accessible dialog behavior]]** — Accessible dialogs require semantic roles, an accessible name, focus management and restoration, and predictable keyboard dismissal; portals alone do not provide these behaviors.
+- **[[aktualizace-hesla-v-keychain-bez-úpravy-konfigurace-shellu|Aktualizace hesla v Keychain bez úpravy konfigurace shellu]]** — Parametr -U u add-generic-password umožňuje přepsat existující heslo, které se při dalším načtení .zshrc převezme bez změny konfigurace.
+- **[[analýza-strapi-json-exportu|Analýza Strapi JSON exportu]]** — Použití Python skriptu k analýze a počítání komponent v JSON exportu ze Strapi.
+- **[[analýza-využití-komponent-ve-strapi|Analýza využití komponent ve Strapi]]** — Script index.py počítá výskyty jednotlivých komponent napříč stránkami exportovanými ze Strapi a ukládá statistiky do JSON.
+- **[[any-unknown-and-never|any, unknown, and never]]** — Distinguish unchecked any, check-before-use unknown, and uninhabited never; prefer unknown at application boundaries and contain justified uses of any.
+- **[[api-authentication-with-curl|API Authentication with cURL]]** — Authenticate requests using Bearer tokens, Basic authentication, or API keys supplied in headers or query parameters.
+- **[[api-testing-with-curl|API Testing with cURL]]** — Use curl to test API endpoints directly from a terminal and quickly verify responses without a browser or graphical API client.
+- **[[appropriate-use-of-const-assertions|Appropriate use of const assertions]]** — Use as const for literal narrowing and readonly typing in constant configurations, maps, and value lists rather than as an automatic mutability fix.
+- **[[autentizace-pomocí-ssh-klíčů|Autentizace pomocí SSH klíčů]]** — SSH používá pár soukromého a veřejného klíče; soukromý klíč zůstává tajný a veřejný se přidává k cílové službě.
+- **[[avoiding-type-level-overengineering|Avoiding type-level overengineering]]** — Use conditional types, mapped types, and generics when they provide meaningful safety while remaining readable, and simplify unnecessary complexity.
+- **[[awaited|Awaited]]** — Odvozuje typ výsledku asynchronní operace a lze jej kombinovat s ReturnType pro získání výsledného typu async funkce.
+- **[[bezpečné-zpracování-chyb-typu-unknown|Bezpečné zpracování chyb typu unknown]]** — Zachycené chyby je vhodné chápat jako unknown a před přístupem k message je zúžit, protože vyhozená hodnota nemusí být instancí Error.
+- **[[bfs-prohledávání-do-šířky|BFS — prohledávání do šířky]]** — Průchod grafem používá frontu FIFO a množinu navštívených uzlů ke zpracování po úrovních a hledání nejkratších cest v neváženém grafu.
+- **[[binary-search-binární-vyhledávání|Binary Search — binární vyhledávání]]** — Vyhledávání v seřazeném poli opakovaně půlí prohledávaný interval a dosahuje časové složitosti O(log n).
+- **[[branded-types|Branded types]]** — Distinguish values sharing the same runtime type using compile-time brands, while recognizing that branding provides no runtime validation.
+- **[[časová-složitost-algoritmů-a-notace-o|Časová složitost algoritmů a notace O]]** — Notace O popisuje růst výpočetní náročnosti algoritmu podle velikosti vstupu, od konstantní po exponenciální složitost.
+- **[[checked-indexed-access|Checked Indexed Access]]** — Enable noUncheckedIndexedAccess so potentially missing array elements include undefined in their type and require appropriate handling.
+- **[[chrome-extension-s-deklarativními-síťovými-pravidly|Chrome Extension s deklarativními síťovými pravidly]]** — Tvorba rozšíření pro Chrome využívajícího deklarativní síťová pravidla v Manifest V3.
+- **[[chrome-extensions-with-manifest-v3|Chrome Extensions with Manifest V3]]** — Manifest V3 extensions declare their configuration, permissions, and static network rulesets in manifest.json.
+- **[[čištění-docker-prostředí|Čištění Docker prostředí]]** — Příkazy prune slouží k odstraňování zastavených kontejnerů, nepotřebných images a dalších prostředků pro uvolnění místa.
+- **[[clean-database-initialization-for-strapi-v5|Clean Database Initialization for Strapi v5]]** — When an old dump contains invalid data, recreate the database, run Strapi to create its schema and apply migrations, then seed fresh valid development data.
+- **[[cleanup-efektů|Cleanup efektů]]** — Cleanup musí přesně zrušit prostředky vytvořené effectem, například odpojit spojení, odstranit listener nebo zastavit timer.
+- **[[cleanup-v-react-hooku|Cleanup v React hooku]]** — Efekt registrující posluchač událostí vrací cleanup funkci, která při úklidu efektu příslušný posluchač odstraní.
+- **[[compile-time-typy-versus-runtime-validace|Compile-time typy versus runtime validace]]** — TypeScript typy nezaručují strukturu externích dat; data z HTTP, JSON či dalších vstupů je nutné ověřit za běhu.
+- **[[component-props-as-a-public-contract|Component Props as a Public Contract]]** — Define component APIs with small, explicit props instead of broad objects containing many optional values.
+- **[[composition-through-children|Composition Through Children]]** — Let visual wrappers accept children so they remain independent of the specific content they contain.
+- **[[compound-components|Compound components]]** — Vzor sdružuje související části komponenty se společným layoutem a ponechává obsah konzumentovi; pro nesouvisející části stačí běžná kompozice.
+- **[[conditional-types|Conditional Types]]** — Use conditional types when a resulting type depends on a condition, while keeping the type definition readable.
+- **[[configuration-objects-with-as-const-satisfies|Configuration Objects with as const satisfies]]** — The guide recommends as const satisfies Shape for configuration objects.
+- **[[connecting-dbeaver-to-strapi-postgresql-databases|Connecting DBeaver to Strapi PostgreSQL databases]]** — Connect DBeaver to the local PostgreSQL instances through their mapped host ports and refresh connections with Invalidate/Reconnect and F5.
+- **[[const-assertions|Const Assertions]]** — The as const assertion preserves literal types and readonly properties, enabling unions derived from constant tuples.
+- **[[const-assertions-with-satisfies|Const assertions with satisfies]]** — Combine as const and satisfies to preserve literal types while checking configuration structure, then derive valid keys with keyof typeof.
+- **[[context-s-vlastním-hookem|Context s vlastním hookem]]** — Provider zpřístupňuje sdílený stav a operace přes Context a vlastní hook kontroluje, zda je použit uvnitř příslušného provideru.
+- **[[controlled-components-and-state-ownership|Controlled Components and State Ownership]]** — Use controlled components when parents need to know or manage values, and avoid copying props into local state because it creates synchronization problems.
+- **[[controlled-input|Controlled input]]** — Řízený vstup přijímá hodnotu přes props a předává změny callbackem, takže správu hodnoty ponechává nadřazené komponentě.
+- **[[criteria-for-reusable-components|Criteria for Reusable Components]]** — Extract reusable components around stable purposes, clear contracts, and multiple real uses; consider composition before abstracting small JSX similarities solely for DRY.
+- **[[curl-output-handling|cURL Output Handling]]** — Save responses to files, suppress progress output, and format JSON responses through python3 -m json.tool.
+- **[[custom-hooks|Custom Hooks]]** — Custom hooks reuse stateful logic while giving each calling component its own independent hook state.
+- **[[datový-formát-analýzy-komponent|Datový formát analýzy komponent]]** — Vstup obsahuje stránky v poli data; výstup uvádí počet typů komponent, počet zpracovaných výskytů a statistiky jednotlivých komponent.
+- **[[declarative-network-request-rules|Declarative Network Request Rules]]** — JSON rules define conditions and actions for redirecting requests, blocking requests, or modifying headers.
+- **[[declarative-request-blocking|Declarative Request Blocking]]** — A block action prevents requests whose URLs match the rule's condition.
+- **[[declarative-url-redirection|Declarative URL Redirection]]** — A redirect action sends matching navigations to a specified destination, illustrated by redirecting a SharePoint intranet URL to Google.
+- **[[dependency-installation-with-a-frozen-lockfile|Dependency installation with a frozen lockfile]]** — The build workflow enables Corepack and runs pnpm install --frozen-lockfile before creating the production build with pnpm build.
+- **[[deriving-types-with-utility-types-and-indexed-access|Deriving Types with Utility Types and Indexed Access]]** — Derive new types from existing types using utility types or indexed access instead of duplicating their structure.
+- **[[dfs-prohledávání-do-hloubky|DFS — prohledávání do hloubky]]** — Průchod grafem pomocí rekurze nebo zásobníku prozkoumá větev do hloubky před návratem k dalším sousedům.
+- **[[diagnostika-portů-docker-kontejnerů|Diagnostika portů Docker kontejnerů]]** — Výpis portů pomocí docker ps pomáhá odhalit obsazené porty a určit kontejner, který je potřeba zastavit pro uvolnění portu.
+- **[[diagnostika-problémů-s-ssh-připojením|Diagnostika problémů s SSH připojením]]** — Řešení problémů zahrnuje kontrolu SSH adresy Git remote, ověření autentizace na GitHubu a podrobný výpis pomocí ssh -v.
+- **[[dialog-close-handler-composition|Dialog close-handler composition]]** — Closing should remove the correct dialog ID, preserve internal handlers, and precede the confirmation action when appropriate.
+- **[[dialog-state-ownership-and-lifecycle|Dialog state ownership and lifecycle]]** — A single source of truth controls dialog opening, rendering, closing, and unmounting.
+- **[[discriminated-unions|Discriminated Unions]]** — A shared property with distinct literal values lets TypeScript identify each union variant and its available properties.
+- **[[discriminated-unions-for-valid-state-modeling|Discriminated unions for valid state modeling]]** — Model mutually exclusive states with discriminated unions to prevent invalid combinations of flags and associated data.
+- **[[distributive-conditional-types|Distributive Conditional Types]]** — Conditional types with a naked type parameter can distribute over union members, offering flexibility at a potential readability cost.
+- **[[docker-container-lifecycle-commands|Docker container lifecycle commands]]** — Inspect running or stopped database containers and control their lifecycle with docker ps, docker stop, and docker start.
+- **[[dynamické-načítání-hesel-do-proměnných-prostředí|Dynamické načítání hesel do proměnných prostředí]]** — Soubor .zshrc může pomocí substituce příkazu načíst heslo z Keychain a exportovat je do proměnné prostředí při svém spuštění.
+- **[[dynamické-programování-a-memoizace|Dynamické programování a memoizace]]** — Ukládání výsledků opakujících se podproblémů omezuje zbytečné výpočty; u uvedeného Fibonacciho algoritmu snižuje složitost z O(2ⁿ) na O(n).
+- **[[environment-backup-and-restoration-safeguards|Environment backup and restoration safeguards]]** — The script preserves the original .env, rejects missing configuration or an existing backup, and restores the original file on normal exit or Ctrl+C.
+- **[[escaping-password-hashes-in-shell-commands|Escaping password hashes in shell commands]]** — Escape dollar signs in password hashes passed through double-quoted shell commands so the shell preserves the literal hash.
+- **[[event-callbacks-and-decision-ownership|Event Callbacks and Decision Ownership]]** — Name event handlers after actions and keep business decisions with the component that owns them, outside generic UI controls.
+- **[[exhaustive-switches-with-never|Exhaustive switches with never]]** — Pass an unhandled discriminated-union value to an assertNever helper to enforce exhaustive switch handling.
+- **[[exhaustiveness-checking-with-never|Exhaustiveness Checking with never]]** — Passing an unhandled union variant to an assertNever function exposes incomplete switch statements when new variants are added.
+- **[[explicit-empty-values-in-controlled-fields|Explicit Empty Values in Controlled Fields]]** — Represent empty controlled-field values explicitly with null or an empty string instead of mixing undefined, null, and empty strings.
+- **[[explicitní-placeholdery-v-šablonách|Explicitní placeholdery v šablonách]]** — Placeholdery v šablonách mají být explicitní a snadno vyhledatelné, například {{FEATURE_NAME}} nebo {{API_RESOURCE}}.
+- **[[explicitní-vykreslování-asynchronních-stavů|Explicitní vykreslování asynchronních stavů]]** — Postupné podmíněné návraty rozlišují načítání, chybu, prázdná data a výsledky a zpřehledňují pořadí stavů.
+- **[[extension-host-permissions|Extension Host Permissions]]** — The example combines declarativeNetRequestWithHostAccess with host_permissions covering the SharePoint domain.
+- **[[external-synchronization-with-effects|External Synchronization with Effects]]** — useEffect synchronizes external systems; useLayoutEffect handles layout measurements or visual corrections before browser paint.
+- **[[feature-hooks-for-dialogs|Feature hooks for dialogs]]** — Feature hooks encapsulate dialog content, translations, and callbacks to avoid repeated store calls across triggers.
+- **[[feature-based-code-organization|Feature-based code organization]]** — Group code by domain or feature, keeping related components, hooks, models, and services together.
+- **[[form-field-wrappers|Form Field Wrappers]]** — Use field wrappers to connect form state and validation errors to UI primitives while keeping feature-level business decisions outside them.
+- **[[form-side-effect-hooks-and-subscription-cleanup|Form Side-Effect Hooks and Subscription Cleanup]]** — Isolate reactions to field changes in hooks and unsubscribe from field-change subscriptions during effect cleanup.
+- **[[form-submission-pipeline|Form Submission Pipeline]]** — Structure submission as validation, API payload mapping, request execution, error normalization, and outcome handling, keeping payload mapping outside JSX event handlers.
+- **[[generátory-struktury-feature|Generátory struktury feature]]** — Generator vytváří konzistentní základ opakující se struktury více souborů a jejich konfigurace, přičemž zachovává volnost dalšího vývoje.
+- **[[generic-asynchronous-result-unions|Generic asynchronous result unions]]** — Represent idle, loading, success, and error states with a discriminated union whose success variant carries generic data.
+- **[[generic-functions-and-components|Generic Functions and Components]]** — Use generics when an algorithm, helper, or component needs to work with multiple types.
+- **[[generické-komponenty|Generické komponenty]]** — Generická komponenta Select propojuje typ položek options s typy parametrů callbacků getValue, getLabel a onChange.
+- **[[generování-ssh-klíčů-ed25519|Generování SSH klíčů Ed25519]]** — Příkaz ssh-keygen vytváří pár klíčů Ed25519 s volitelnou passphrase, komentářem a vlastní cestou uložení.
+- **[[global-dialog-service-architecture|Global dialog service architecture]]** — Triggers, feature services, a shared store, a provider, a renderer, and dialog primitives support dialogs opened from distant application locations.
+- **[[hranice-a-datový-tok-v-react-aplikaci|Hranice a datový tok v React aplikaci]]** — Návrh aplikace má začínat vymezením hranic a datového toku, teprve poté mají vznikat abstrakce.
+- **[[http-methods-and-json-requests|HTTP Methods and JSON Requests]]** — Send GET, POST, PUT, PATCH, and DELETE requests with curl, including JSON payloads supplied inline or loaded from a file.
+- **[[http-response-inspection|HTTP Response Inspection]]** — Inspect response headers, verbose communication details, and HTTP status codes using curl options.
+- **[[idempotent-and-non-destructive-seeding|Idempotent and Non-Destructive Seeding]]** — The seed script deletes nothing and skips existing records matched by slug or title when run repeatedly.
+- **[[identifikace-záznamů-keychain-pomocí-account-a-service|Identifikace záznamů Keychain pomocí account a service]]** — Parametry -a pro účet a -s pro službu určují záznam, se kterým příkaz security pracuje.
+- **[[independent-feature-testability|Independent feature testability]]** — Design features so they can be tested without starting the entire application.
+- **[[instalace-veřejného-ssh-klíče-na-server|Instalace veřejného SSH klíče na server]]** — Veřejný klíč lze na server přidat pomocí ssh-copy-id nebo ručním připojením do ~/.ssh/authorized_keys.
+- **[[každodenní-práce-s-gitem|Každodenní práce s Gitem]]** — Přehled příkazů pro běžnou práci s Gitem, vracení změn, správu větví a merge.
+- **[[kdy-generika-nepoužívat|Kdy generika nepoužívat]]** — Generika mají zachovávat důležité vztahy mezi typy; konkrétní typ, explicitní union nebo unknown s narrowing mohou být srozumitelnější.
+- **[[key-constrained-generic-property-updates|Key-constrained generic property updates]]** — Combine K extends keyof T with T[K] to constrain a property-update helper to valid keys and their corresponding value types.
+- **[[komponenta-prázdného-stavu|Komponenta prázdného stavu]]** — Typovaná komponenta EmptyState zobrazuje nadpis, volitelný popis a akci a propojuje sekci s nadpisem pomocí aria-labelledby.
+- **[[konfigurace-api-url-v-projektu-dif|Konfigurace API URL v projektu DIF]]** — URL pojišťovacího API se na frontendu projektu DIF upravuje v souboru src/services/insurance/const.ts.
+- **[[kontrola-cíle-symlinku|Kontrola cíle symlinku]]** — Výpis `ls -la` zobrazuje symbolické odkazy ve tvaru `název -> cíl`, což umožňuje ověřit jejich přítomnost a cílovou cestu.
+- **[[kontrola-datového-toku-a-správy-stavu|Kontrola datového toku a správy stavu]]** — Review má ověřovat čitelnost datového toku, absenci zbytečně uloženého odvozeného stavu a záměrnou volbu controlled či uncontrolled komponenty.
+- **[[kontrola-rozsahu-změny-a-testovacího-pokrytí|Kontrola rozsahu změny a testovacího pokrytí]]** — Review má ověřit pokrytí nového behaviorálního kontraktu testem a nepřítomnost nesouvisejícího refactoringu.
+- **[[kontrola-vygenerovaného-kódu|Kontrola vygenerovaného kódu]]** — Po generování je nutné ověřit importy, exporty, překlady, registraci rout, typy, lint a nepřítomnost nevyplněných placeholderů.
+- **[[kontrola-životního-cyklu-efektů|Kontrola životního cyklu efektů]]** — Review má kontrolovat cleanup efektů a správnost jejich dependencies.
+- **[[kontrolní-seznam-návrhu-komponent|Kontrolní seznam návrhu komponent]]** — Návrh komponenty ověřuje jeden účel, malý typovaný kontrakt, explicitní řízení stavu, přístupnost, oddělení business logiky a vhodnost Contextu oproti props a kompozici.
+- **[[kopírování-souborů-mezi-hostitelem-a-kontejnerem|Kopírování souborů mezi hostitelem a kontejnerem]]** — Příkaz docker cp umožňuje přenášet soubory oběma směry mezi lokálním počítačem a kontejnerem.
+- **[[layered-dependencies-and-feature-isolation|Layered dependencies and feature isolation]]** — Features may depend on shared code, while shared code should avoid feature imports and features should avoid direct dependencies on one another.
+- **[[layered-form-architecture|Layered Form Architecture]]** — Separate form composition, client interactions, field components, schemas, and side-effect hooks into distinct layers.
+- **[[linear-search-lineární-vyhledávání|Linear Search — lineární vyhledávání]]** — Postupné porovnávání prvků vrací index prvního výskytu hledané hodnoty a funguje i na neseřazeném poli se složitostí O(n).
+- **[[local-dialog-state|Local dialog state]]** — Component-local state suits dialogs whose triggers and content belong to a single component.
+- **[[local-package-testing-by-copying-dist|Local package testing by copying dist]]** — Build a package locally, remove its installed dist directory, and copy the new dist into the consuming project's node_modules to test without publishing, npm link, or npm pack; this requires a package that builds into dist.
+- **[[local-production-execution-without-docker|Local production execution without Docker]]** — run-local-prod.sh reproduces key production Dockerfile steps on the host to build and run a Next.js application without creating a Docker image.
+- **[[logování-a-diagnostika-docker-kontejnerů|Logování a diagnostika Docker kontejnerů]]** — Použití docker logs pro zobrazení logů, průběžné sledování výstupu a omezení na poslední řádky při diagnostice problémů.
+- **[[lokální-a-sdílený-stav|Lokální a sdílený stav]]** — Stav jedné obrazovky patří do lokálního state; při sdílení mezi vzdálenými částmi aplikace je vhodné zvážit context nebo store.
+- **[[lokální-api-pro-výpočet-pojištění-insurance|Lokální API pro výpočet pojištění Insurance]]** — Lokální backend poskytuje výpočet pojištění na endpointu http://localhost:8976/restapi-property/services/rest/property/insurance/v6/calculation.
+- **[[lokální-testování-npm-balíčku-kopírováním-dist|Lokální testování npm balíčku kopírováním dist]]** — Postup lokálního testování npm balíčku přímým kopírováním sestaveného adresáře dist do node_modules.
+- **[[macos-keychain-jako-úložiště-tajných-údajů|macOS Keychain jako úložiště tajných údajů]]** — Keychain umožňuje uchovávat hesla a jiné tajné údaje mimo soubor .zshrc a načítat je ze shellu.
+- **[[managing-strapi-administrator-records-with-psql|Managing Strapi administrator records with psql]]** — Use psql inside the database container to list administrator emails, count administrator records, or delete all records from admin_users.
+- **[[memoization-with-usememo-and-usecallback|Memoization with useMemo and useCallback]]** — useMemo caches calculations and useCallback stabilizes function references when a concrete performance or identity requirement exists.
+- **[[merge-sort|Merge Sort]]** — Řazení metodou rozděl a panuj rekurzivně dělí pole a slučuje seřazené poloviny s časovou složitostí O(n log n).
+- **[[minimální-typescript-scaffold|Minimální TypeScript scaffold]]** — Výchozí scaffold komponenty má obsahovat jen nezbytný základ, například typované props, jednoduché vykreslení a pojmenovaný export.
+- **[[nastavení-ssh-přístupu-na-github|Nastavení SSH přístupu na GitHub]]** — Veřejný klíč se přidává do nastavení GitHubu a autentizace se ověřuje příkazem ssh -T git@github.com.
+- **[[návrh-vlastních-utility-typů|Návrh vlastních utility typů]]** — Vlastní utility typ má smysl pro opakující se pattern, jehož pojmenování zlepší čitelnost; přednost mají standardní utility, indexed access nebo satisfies.
+- **[[návrh-znovupoužitelných-komponent|Návrh znovupoužitelných komponent]]** — Znovupoužitelná komponenta má být jednoduchá na použití a nemá znát business pravidla svého konzumenta.
+- **[[never-and-exhaustiveness-checking|Never and Exhaustiveness Checking]]** — Never represents impossible values or functions that cannot return successfully and supports exhaustive switch checks.
+- **[[nextjs-cache-invalidation-after-local-package-changes|Next.js cache invalidation after local package changes]]** — The workflow deletes .next and restarts the development server so cached modules do not prevent copied package changes from appearing.
+- **[[nextjs-standalone-runtime-packaging|Next.js standalone runtime packaging]]** — The production runtime combines .next/standalone/server.js with copied public and .next/static assets and runs through Node.js.
+- **[[nonnullable-extract-a-exclude|NonNullable, Extract a Exclude]]** — Filtrují členy union typů odstraněním null a undefined, výběrem odpovídajících členů nebo jejich vyloučením.
+- **[[object-type-guards|Object type guards]]** — Use a type predicate and a non-null object check to narrow unknown values to Record<string, unknown>.
+- **[[obnova-postgresql-databáze-v-dockeru|Obnova PostgreSQL databáze v Dockeru]]** — Obnova PostgreSQL databáze ze zálohy do Docker kontejneru a naplnění vývojovými daty pro Strapi v5.
+- **[[ochrana-před-závodícími-požadavky|Ochrana před závodícími požadavky]]** — Ruš předchozí požadavky pomocí AbortController a ověřuj aktuálnost odpovědi, aby starší výsledek nepřepsal novější stav.
+- **[[oddělení-business-logiky-od-generického-ui|Oddělení business logiky od generického UI]]** — Review má hlídat, aby business logika nepronikala do generických UI komponent.
+- **[[oddělení-modelů-v-datovém-toku|Oddělení modelů v datovém toku]]** — Odděl UI, formulářový či doménový model, request mapper, API klienta a modely odpovědi podle účelu jednotlivých hranic.
+- **[[odložení-rozpracovaných-změn-pomocí-git-stash|Odložení rozpracovaných změn pomocí git stash]]** — Dočasné odložení změn, zobrazení uložených položek a jejich obnovení pomocí git stash pop.
+- **[[odstranění-symlinku-bez-smazání-originálu|Odstranění symlinku bez smazání originálu]]** — Příkaz `rm` použitý na cestu samotného symlinku odstraní odkaz a ponechá původní soubor nedotčený.
+- **[[odvozené-hodnoty-a-jediný-zdroj-pravdy|Odvozené hodnoty a jediný zdroj pravdy]]** — Hodnoty odvoditelné z props nebo existujícího stavu se mají přímo vypočítat, protože samostatný state synchronizovaný effectem duplikuje zdroj pravdy.
+- **[[odvozené-hodnoty-během-renderu|Odvozené hodnoty během renderu]]** — Hodnoty odvoditelné z props nebo state se mají vypočítat během renderu.
+- **[[omezení-generických-typů-pomocí-extends|Omezení generických typů pomocí extends]]** — Constraint pomocí extends vyžaduje určité vlastnosti generického typu, přičemž dovoluje další vlastnosti navíc.
+- **[[optional-versus-nullable-properties|Optional Versus Nullable Properties]]** — Optional properties may be absent, while required nullable properties must exist but can contain null.
+- **[[partial-required-a-readonly|Partial, Required a Readonly]]** — Upravují volitelnost nebo zapisovatelnost vlastností; Partial se hodí pro patch requesty, ale nenahrazuje přesný typ formuláře.
+- **[[path-alias-coordination-across-tools|Path Alias Coordination Across Tools]]** — Coordinate TypeScript path aliases with the bundler, test runner, and editor tooling because tsconfig aliases alone do not change runtime resolution.
+- **[[persistent-mutable-references-with-useref|Persistent Mutable References with useRef]]** — useRef retains mutable values across renders without triggering rendering, making it suitable for DOM references and timer identifiers.
+- **[[pick-a-omit|Pick a Omit]]** — Vytvářejí typy výběrem nebo vynecháním vlastností, pokud výsledný kontrakt skutečně představuje podmnožinu původního.
+- **[[pojmenování-testů-podle-výsledku|Pojmenování testů podle výsledku]]** — Název testu má popisovat pozorovatelný výsledek, nikoli privátní funkci.
+- **[[postgresql-containers-for-strapi|PostgreSQL containers for Strapi]]** — Run PostgreSQL instances for Strapi in Docker with configured credentials, database names, host ports, image versions, and persistent named volumes.
+- **[[praktický-vývoj-v-reactu|Praktický vývoj v Reactu]]** — Průvodce architekturou, komponentami, stavem, formuláři, dialogy, API a testováním v Reactu.
+- **[[přenesení-commitu-na-správnou-větev|Přenesení commitu na správnou větev]]** — Použití git cherry-pick k aplikování omylem umístěného commitu na správnou větev a následné odebrání z původní větve.
+- **[[přepínání-prostředí-při-vývoji-insurance|Přepínání prostředí při vývoji Insurance]]** — Frontend lze přepínat mezi lokálním backendem a jiným prostředím změnou API URL v konfiguraci projektu DIF.
+- **[[příprava-a-úprava-commitů-v-gitu|Příprava a úprava commitů v Gitu]]** — Přidávání změn do stage, vytváření commitů a oprava posledního commitu pomocí git commit --amend.
+- **[[production-build-validation-versus-development-mode|Production build validation versus development mode]]** — The standalone workflow validates built artifacts and runtime behavior without hot reload, so source changes require rebuilding and restarting the script.
+- **[[production-environment-file-selection|Production environment file selection]]** — The script accepts an environment filename or path, searches the project root and envs directory, and copies the selected configuration into .env.
+- **[[prohlížení-historie-a-rozdílů-v-gitu|Prohlížení historie a rozdílů v Gitu]]** — Kontrola historie commitů, obsahu konkrétního commitu, pracovních změn, stage a commitů vůči origin/main.
+- **[[projektové-konvence-zápisu-react-kódu|Projektové konvence zápisu React kódu]]** — Ukázky používají const arrow functions pro komponenty a custom hooks a pojmenované exporty na konci souboru; jde o přizpůsobitelné projektové konvence.
+- **[[property-validation-with-in-and-null-checks|Property Validation with in and Null Checks]]** — An unknown value can be validated by checking that it is a non-null object, that a property exists using in, and that the property has the expected type.
+- **[[purposeful-usecallback-usage|Purposeful useCallback Usage]]** — Use useCallback when stable callback identity matters for a passed dependency, rather than applying it automatically.
+- **[[quick-sort|Quick Sort]]** — Řazení rozděluje prvky podle pivotu a rekurzivně třídí vzniklé části; průměrná složitost je O(n log n), nejhorší O(n²).
+- **[[react-context-and-providers|React Context and Providers]]** — Context passes values deeply without prop drilling, and changes to provider values rerender consuming components.
+- **[[react-hooks-and-render-purity|React Hooks and Render Purity]]** — Hooks must be called at the top level of components or custom hooks, and rendering must remain free of side effects.
+- **[[react-portals-and-context-propagation|React portals and context propagation]]** — The source explains that portals relocate DOM output while preserving React context and event propagation, contradicting its earlier suggestion that portals can change context boundaries.
+- **[[record-v-kombinaci-se-satisfies|Record v kombinaci se satisfies]]** — Kontroluje úplnost klíčů objektového literálu a odhaluje překlepy v klíčích podle zadaného typu.
+- **[[rekurzivní-vyhledávání-komponent-v-json|Rekurzivní vyhledávání komponent v JSON]]** — Script rekurzivně prochází strukturu každé stránky a identifikuje komponenty podle klíče __component.
+- **[[render-prioritization-with-usetransition-and-usedeferredvalue|Render Prioritization with useTransition and useDeferredValue]]** — useTransition marks updates as nonurgent, while useDeferredValue lets expensive rendering follow a delayed version of a value.
+- **[[request-header-modification|Request Header Modification]]** — The modifyHeaders action can set request headers, including User-Agent and custom headers.
+- **[[request-mapper-a-oddělení-datových-modelů|Request mapper a oddělení datových modelů]]** — Samostatný mapper převádí formulářový model na API request a soustřeďuje normalizaci, transformaci a explicitní API kontrakt mimo JSX event handlery.
+- **[[resetting-a-strapi-administrator-password-by-transferring-its-hash|Resetting a Strapi administrator password by transferring its hash]]** — Register an administrator against a temporary database, retrieve the generated password hash, and copy it into the original database's admin_users record.
+- **[[restoring-a-dockerized-postgresql-database|Restoring a Dockerized PostgreSQL Database]]** — restore_strapi.py copies a SQL backup into Docker, terminates connections, drops and recreates the database, imports the backup, and lists tables to check the result.
+- **[[restoring-a-strapi-sql-database-dump|Restoring a Strapi SQL database dump]]** — Restore a database using restore_db.py or by copying an SQL dump into the PostgreSQL container and executing it with psql.
+- **[[returntype-a-parameters|ReturnType a Parameters]]** — Odvozují návratový typ a typ parametrů z funkce, jejíž signatura slouží jako zdroj pravdy.
+- **[[reusable-snippet-quality-checklist|Reusable snippet quality checklist]]** — Check snippets for copy-paste usability, explicit adaptation points, justified any usage, named exports, and clearly identified runtime boundaries.
+- **[[role-based-naming-for-types-and-conversion-functions|Role-based naming for types and conversion functions]]** — Use consistent names that distinguish models, forms, responses, status unions, runtime schemas, parsers, mappers, and type guards.
+- **[[rozdělení-výskytů-komponent-podle-publicweb|Rozdělení výskytů komponent podle publicWeb]]** — Pro každou komponentu se vedle celkového počtu výskytů sleduje rozdělení podle hodnot publicWeb true, false a unknown.
+- **[[runtime-validation-versus-type-assertions|Runtime validation versus type assertions]]** — Type assertions do not validate or transform data; external inputs require a runtime parser, schema, or genuine type guard.
+- **[[runtime-aligned-typescript-configuration|Runtime-Aligned TypeScript Configuration]]** — Choose target, module, and moduleResolution to match the runtime and bundler instead of copying compiler settings without understanding their effects.
+- **[[schema-derived-form-types|Schema-Derived Form Types]]** — Use a validation schema as the source of form types, deriving TypeScript types with Zod's z.infer.
+- **[[seeding-through-the-strapi-documents-api|Seeding Through the Strapi Documents API]]** — Creating seed records through the Documents API runs validations and lifecycle hooks, supporting correct generatedUrl values and duplicate checks.
+- **[[separation-of-business-logic-from-routing|Separation of business logic from routing]]** — Keep business logic outside route and layout files, with each module having one clear responsibility.
+- **[[server-and-client-component-boundaries|Server and client component boundaries]]** — Keep client boundaries deep in the component tree: server components load data and compose pages, while client components handle interactivity and browser APIs.
+- **[[shared-logic-extraction|Shared logic extraction]]** — Move genuinely general logic used in multiple places into the shared layer.
+- **[[single-source-of-truth-for-type-contracts|Single source of truth for type contracts]]** — Prevent schemas, response interfaces, and UI types from drifting by establishing one authoritative contract and deriving or mapping other representations.
+- **[[slučování-větví-a-řešení-konfliktů|Slučování větví a řešení konfliktů]]** — Sloučení větve pomocí git merge a dokončení konfliktního sloučení po ruční opravě souborů.
+- **[[snippets-a-generátory|Snippets a generátory]]** — Opakující se struktury souborů a pravidla lze zachytit pomocí snippets nebo generátorů.
+- **[[snippety-pro-opakovaný-kód|Snippety pro opakovaný kód]]** — Snippet slouží pro malé, stabilní a často opakované části kódu a nemá skrývat rozhodnutí vývojáře.
+- **[[spouštění-příkazů-uvnitř-kontejnerů|Spouštění příkazů uvnitř kontejnerů]]** — Použití docker exec pro otevření shellu nebo jednorázové spuštění příkazu, například databázového klienta psql.
+- **[[správa-docker-images|Správa Docker images]]** — Výpis lokálních images, jejich stahování z Docker Hub a odstraňování pomocí docker images, docker pull a docker rmi.
+- **[[správa-hesel-v-keychain-pomocí-příkazu-security|Správa hesel v Keychain pomocí příkazu security]]** — Příkaz security poskytuje operace add-generic-password, find-generic-password a delete-generic-password pro ukládání, čtení a mazání hesel.
+- **[[správa-klíčů-v-ssh-agentovi|Správa klíčů v SSH agentovi]]** — Příkaz ssh-add přidává soukromý klíč do SSH agenta a přepínač -l vypisuje načtené klíče.
+- **[[správa-serverových-dat-pomocí-querycache-vrstvy|Správa serverových dat pomocí query/cache vrstvy]]** — Serverová data mají být spravována query/cache vrstvou místo ručně udržovaného globálního stavu.
+- **[[správa-stavu-api-požadavků|Správa stavu API požadavků]]** — Udržuj data, loading a chybu pohromadě, rozlišuj initial loading, refetch a mutation a nevydávej stará data za čerstvá po selhání.
+- **[[správa-větví-v-gitu|Správa větví v Gitu]]** — Vytváření, přepínání, výpis a mazání lokálních i vzdálených větví.
+- **[[správa-více-služeb-pomocí-docker-compose|Správa více služeb pomocí Docker Compose]]** — Docker Compose umožňuje společné spouštění a zastavování služeb, sledování logů a práci s jednotlivými službami; down -v odstraňuje také volumes a může smazat databázová data.
+- **[[správa-životního-cyklu-docker-kontejnerů|Správa životního cyklu Docker kontejnerů]]** — Výpis běžících i zastavených kontejnerů a jejich spouštění, zastavování, restartování a odstraňování pomocí Docker CLI.
+- **[[state-management-with-usestate-and-usereducer|State Management with useState and useReducer]]** — useState manages local UI values, while useReducer centralizes complex state transitions in a pure reducer.
+- **[[statistiky-komponent-jako-podklad-pro-refaktoring-a-migraci|Statistiky komponent jako podklad pro refaktoring a migraci]]** — Přehled využití komponent pomáhá plánovat refaktoring či migraci a posoudit stav dat před větší změnou.
+- **[[strapi-api-requests-with-curl|Strapi API Requests with cURL]]** — Retrieve and create Strapi page records using Bearer authentication and a JSON request body wrapped in a data object.
+- **[[strapi-v5-development-data-seeding|Strapi v5 Development Data Seeding]]** — seedDevData.js populates a clean local Strapi v5 database with sample categories, tags, posts, pages, and a locally uploaded placeholder image.
+- **[[strapi-v5-draft-and-publish-seeding|Strapi v5 Draft and Publish Seeding]]** — Sample blog posts and pages are created as drafts and then published to produce Strapi v5 draft and published counterparts.
+- **[[symbolický-odkaz-symlink|Symbolický odkaz (symlink)]]** — Odkaz na soubor na jiném místě souborového systému, který zpřístupňuje originál bez kopírování a odráží jeho změny.
+- **[[synchronizace-s-externími-systémy-pomocí-useeffect|Synchronizace s externími systémy pomocí useEffect]]** — Hook useEffect slouží k synchronizaci Reactu s externím systémem.
+- **[[synchronizace-se-vzdáleným-repozitářem|Synchronizace se vzdáleným repozitářem]]** — Odesílání a stahování změn pomocí push, pull a fetch, porovnání větví a nahrazení lokálního stavu vzdálenou větví.
+- **[[syntaxe-generik-v-tsx|Syntaxe generik v TSX]]** — Zápis <T,> pomáhá parseru v souborech .tsx rozlišit generický parametr od JSX tagu.
+- **[[temporary-overrides-in-nodemodules|Temporary overrides in node_modules]]** — Direct changes to installed package files are temporary local development and testing overrides that yarn install or npm install can overwrite.
+- **[[testování-kontraktu-a-pozorovatelného-chování|Testování kontraktu a pozorovatelného chování]]** — Testy mají ověřovat uživatelské stavy, data callbacků, validaci a chování dialogů místo interní implementace.
+- **[[testování-uživatelských-interakcí-a-callbacků|Testování uživatelských interakcí a callbacků]]** — Test může vykonat úpravu vstupu a uložení a následně ověřit, že callback obdržel upravenou hodnotu.
+- **[[the-satisfies-operator|The satisfies operator]]** — Use satisfies to check type compatibility while preserving inference instead of relying on assertions that can conceal errors.
+- **[[trvalost-a-nefunkčnost-symlinků|Trvalost a nefunkčnost symlinků]]** — Vytvořený symlink přetrvává pro opakované použití; přesunutí nebo přejmenování cílového skriptu může způsobit jeho nefunkčnost.
+- **[[type-aliases-and-interfaces|Type Aliases and Interfaces]]** — Use type aliases for type compositions and interfaces for extensible or implementable object contracts, maintaining codebase consistency.
+- **[[type-checking-in-continuous-integration|Type Checking in Continuous Integration]]** — Run tsc --noEmit in CI to verify types, alongside linting and formatting, which address different concerns and do not replace compiler checks.
+- **[[type-inference-and-explicit-annotations|Type Inference and Explicit Annotations]]** — Prefer type inference by default and add explicit annotations to document contracts, protect public APIs, or support narrowing.
+- **[[type-safe-dialog-stores|Type-safe dialog stores]]** — A discriminated union connects each dialog type to its required props, while unique IDs identify individual open dialogs.
+- **[[typed-dictionaries-with-record|Typed dictionaries with Record]]** — Use satisfies Record<Status, string> to check that a label dictionary covers every member of a status union.
+- **[[typeof-type-guards|typeof Type Guards]]** — Checks using typeof narrow union types to primitive types such as string or number within control-flow branches.
+- **[[typescript-conditional-types|TypeScript Conditional Types]]** — Select a resulting type using the condition T extends U ? A : B.
+- **[[typescript-file-inclusion-and-exclusion|TypeScript File Inclusion and Exclusion]]** — include selects project source files, while exclude does not prevent imported files from entering the TypeScript program.
+- **[[typescript-function-overloads|TypeScript Function Overloads]]** — Describe multiple public call signatures for one implementation, using overloads when they improve the API over a simpler union.
+- **[[typescript-indexed-access-types|TypeScript Indexed Access Types]]** — Extract property types with T[K] or an array element type with (typeof OPTIONS)[number].
+- **[[typescript-infer-keyword|TypeScript infer Keyword]]** — Capture part of a matched type inside a conditional type, such as the value wrapped by a Promise.
+- **[[typescript-mapped-types|TypeScript Mapped Types]]** — Create new types by iterating over the keys of an existing type and transforming their property types.
+- **[[typescript-primitive-types|TypeScript Primitive Types]]** — TypeScript provides primitive types such as string, number, boolean, null, and undefined.
+- **[[typescript-project-configuration|TypeScript Project Configuration]]** — TypeScript project setup includes strict mode, module resolution, and project references configured through tsconfig.
+- **[[typescript-project-references|TypeScript Project References]]** — Use project references for multiple independently built TypeScript projects; a single well-configured tsconfig is simpler for an ordinary application.
+- **[[typescript-satisfies-operator|TypeScript satisfies Operator]]** — Validate a value against a target type while preserving its specific inferred type, including concrete keys and literals in the shown as const pattern.
+- **[[typescript-strict-mode-and-null-safety|TypeScript Strict Mode and Null Safety]]** — Enable strict mode to catch problems early; strictNullChecks prevents null and undefined from being automatically compatible with every type.
+- **[[typescript-template-literal-types|TypeScript Template Literal Types]]** — Construct string types from literal combinations to model event names, route patterns, and configuration keys.
+- **[[typescript-type-narrowing|TypeScript Type Narrowing]]** — Narrowing refines a broad type into a more specific variant based on conditions, enabling access to variant-specific properties.
+- **[[typescript-types-and-runtime-validation|TypeScript Types and Runtime Validation]]** — TypeScript checks code during development or builds; external data requires a runtime schema or parser, and types should be derived from that source of truth.
+- **[[typování-funkcí-v-typescriptu|Typování funkcí v TypeScriptu]]** — Veřejné helpery mají mít explicitně typované vstupy i návratovou hodnotu; lokální funkce mohou využít inferenci návratového typu.
+- **[[typově-bezpečný-přístup-k-vlastnostem-pomocí-keyof-a-tk|Typově bezpečný přístup k vlastnostem pomocí keyof a T[K]]]** — K extends keyof T omezuje klíč na klíče objektu a indexed access type T[K] určuje odpovídající typ hodnoty.
+- **[[typový-systém-a-praktické-použití-typescriptu|Typový systém a praktické použití TypeScriptu]]** — Průvodce typovým systémem, generics, narrowing, utility types a API kontrakty v TypeScriptu.
+- **[[umístění-a-sdílení-stavu-v-komponentovém-stromu|Umístění a sdílení stavu v komponentovém stromu]]** — State patří na nejnižší potřebnou úroveň: lokálně do useState, pro sourozence do společného rodiče a pro vzdálené části oblasti do contextu nebo feature storu.
+- **[[union-and-literal-types|Union and Literal Types]]** — Unions of literal types constrain values to specific permitted alternatives more precisely than broad primitive types.
+- **[[unknown-types-narrowing-and-type-guards|Unknown Types, Narrowing, and Type Guards]]** — Treat external values as unknown instead of any, then narrow or validate them before use.
+- **[[unknown-versus-any|Unknown Versus Any]]** — Unknown requires narrowing before use, while any disables type checking and should be isolated to unavoidable boundaries.
+- **[[unpacked-extension-development-workflow|Unpacked Extension Development Workflow]]** — Developers load a local extension through Developer mode at chrome://extensions/ and reload it after editing its files.
+- **[[úplnost-klíčů-cache|Úplnost klíčů cache]]** — Zahrň do klíče cache všechny parametry ovlivňující výsledek, aby se nezaměňovala data různých variant dotazu.
+- **[[úplnost-závislostí-useeffect|Úplnost závislostí useEffect]]** — Závislosti effectu se nemají vynechávat pouze za účelem omezení četnosti jeho spouštění.
+- **[[url-matching-with-regexfilter|URL Matching with regexFilter]]** — Network rules use regular expressions to match URLs and resourceTypes to restrict matching to resources such as main_frame navigations.
+- **[[useeffect-pro-synchronizaci-s-externími-systémy|useEffect pro synchronizaci s externími systémy]]** — useEffect slouží k synchronizaci s externími systémy, například subscriptions, časovači, browser API nebo síťovými API.
+- **[[user-defined-type-guards|User-Defined Type Guards]]** — Functions returning a type predicate such as value is SomeType enable narrowing through custom runtime checks, whose correctness the implementation must ensure.
+- **[[utility-types-v-typescriptu|Utility types v TypeScriptu]]** — Odvozují nové typy z existujících a snižují duplicitu, aniž by měly skrývat důležitý business kontrakt.
+- **[[validace-externích-dat|Validace externích dat]]** — Považuj externí data za unknown, dokud jejich strukturu neověří schema nebo bezpečný parser.
+- **[[validace-na-api-hranici|Validace na API hranici]]** — Datový tok vede od neznámého vstupu přes runtime parser a validovaný API model k mapperu a UI či doménovému modelu.
+- **[[validace-odpovědí-api-a-předávání-chyb|Validace odpovědí API a předávání chyb]]** — Odpověď API má být ověřena před použitím a chyba zobrazena nebo předána na správnou hranici.
+- **[[více-github-účtů-pomocí-ssh-aliasů|Více GitHub účtů pomocí SSH aliasů]]** — Samostatné klíče a aliasy Host v ~/.ssh/config umožňují vybírat účet pomocí adresy repozitáře.
+- **[[vrácení-změn-pomocí-git-restore-a-git-reset|Vrácení změn pomocí git restore a git reset]]** — Obnovení souborů, odebrání změn ze stage a odstranění posledního commitu se zachováním nebo zahozením změn.
+- **[[výchozí-hodnoty-generických-parametrů|Výchozí hodnoty generických parametrů]]** — Generický parametr může mít výchozí typ, například unknown, který usnadňuje použití, ale nemá zakrývat chybějící typovou informaci.
+- **[[vytváření-symlinků-pomocí-ln-s|Vytváření symlinků pomocí ln -s]]** — Příkaz `ln -s ORIGINÁL ZKRATKA` vytvoří symbolický odkaz na zadaný cíl.
+- **[[zachování-vztahu-mezi-typy-pomocí-generik|Zachování vztahu mezi typy pomocí generik]]** — Generický parametr zachovává vztah mezi vstupním a výstupním typem, například při získání prvního prvku pole.
+- **[[základy-práce-s-dockerem|Základy práce s Dockerem]]** — Přehled práce s kontejnery, logy, exec a Docker Compose.
+- **[[zod-parse-versus-safeparse|Zod parse versus safeParse]]** — parse při nevalidních datech vyhodí výjimku, zatímco safeParse vrací výsledek umožňující explicitní zpracování chyby či fallbacku.
+- **[[zod-schema-jako-zdroj-validace-a-typu|Zod schema jako zdroj validace a typu]]** — Zod schema definuje runtime validaci a pomocí z.infer poskytuje TypeScript typ, čímž předchází rozcházení definic.
+- **[[zpřístupnění-repozitářového-skriptu-přes-symlink|Zpřístupnění repozitářového skriptu přes symlink]]** — Symlink v `~/.claude/setup.sh` umožňuje spouštět skript uložený v repozitáři příkazem `bash ~/.claude/setup.sh`.
+
+_241 pages | Generated 2026-11-11T11:06:22.801Z_
